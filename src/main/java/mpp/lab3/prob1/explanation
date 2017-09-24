@@ -1,0 +1,15 @@
+The reason it is showing that result is because of dynamic binding.
+This resolution happens only at runtime because object
+only created during runtime and is called dynamic binding
+
+First call - PersonWithJob extends Person and overrides its equals()
+method and when we call equals() method from a
+reference variable of type PersonWithJob, it doesn't
+call equals() method from Person class instead it
+calls equals() method from PersonWithJob subclass because object
+referenced by Person type is a PersonWithJob object.
+Since the implementation of the equals methods in each is different the result differs.
+
+Second call - Person object references the same object Person and the
+call for equals method will call the implementation from the Person class giving the final
+comparision result.

@@ -1,0 +1,2 @@
+The provided "equals" method in the employee class doesn't have the right signature.
+It should accept type of Object for the ArrayList contains method to work properly.
