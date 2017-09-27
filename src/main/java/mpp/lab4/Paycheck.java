@@ -1,4 +1,4 @@
-package temp.lab4;
+package mpp.lab4;
 
 public class Paycheck {
     private final double grossPay;

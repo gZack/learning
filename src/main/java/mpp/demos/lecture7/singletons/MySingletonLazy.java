@@ -1,4 +1,4 @@
-package lesson7.lecture.singletons;
+package mpp.demos.lecture7.singletons;
 
 /** Singleton with lazy initialization. Not threadsafe */
 public class MySingletonLazy{

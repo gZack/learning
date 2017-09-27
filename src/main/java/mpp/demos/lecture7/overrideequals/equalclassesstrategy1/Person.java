@@ -1,4 +1,4 @@
-package lesson7.lecture.overrideequals.equalclassesstrategy1;
+package mpp.demos.lecture7.overrideequals.equalclassesstrategy1;
 
 /** 
  *  CORRECT:

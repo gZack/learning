@@ -1,8 +1,5 @@
-package mpp.lab5.prob2;
+package mpp.labs.lab7.prob5;
 
-public class CannotFly implements FlyBehaviour {
-    @Override
-    public void fly() {
-        System.out.println("cannot fly");
-    }
+public class CannotFly {
+
 }

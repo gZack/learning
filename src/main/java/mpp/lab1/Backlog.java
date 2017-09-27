@@ -1,6 +1,4 @@
-package temp.lab1;
-
-import mpp.mpp.lab1.Feature;
+package mpp.lab1;
 
 import java.util.List;
 

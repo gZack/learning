@@ -1,4 +1,4 @@
-package lesson7.labs.prob1.partD;
+package mpp.labs.lab7.prob1.partD;
 
 public class Employee {
 	private String name;

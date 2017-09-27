@@ -1,4 +1,6 @@
-package lesson10.lecture.trickycatch4_trywithres;
+package mpp.demos.lecture10.trickycatch4_trywithres;
+
+import mpp.demos.lecture10.logging.defaultlogging.LogSetup;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -8,8 +10,6 @@ import java.sql.SQLException;
 import java.util.Arrays;
 import java.util.List;
 import java.util.logging.Logger;
-
-import lesson10.lecture.logging.defaultlogging.LogSetup;
 
 /**
  * This accomplishes the same as trickycatch3, using

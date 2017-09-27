@@ -1,4 +1,4 @@
-package lesson8.lecture.exercise.employeecode;
+package mpp.demos.lecture8.exercise.employeecode;
 
 public class Employee {
 	String name;
@@ -7,7 +7,16 @@ public class Employee {
 		this.name = n;
 		this.salary = s;
 	}
-	
+
+
+	public String getName() {
+		return name;
+	}
+
+	public int getSalary() {
+		return salary;
+	}
+
 	@Override
 	public String toString() {
 		StringBuilder sb = new StringBuilder("<");

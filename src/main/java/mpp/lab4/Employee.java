@@ -1,6 +1,4 @@
-package temp.lab4;
-
-import mpp.mpp.lab4.Paycheck;
+package mpp.lab4;
 
 public abstract class Employee {
 

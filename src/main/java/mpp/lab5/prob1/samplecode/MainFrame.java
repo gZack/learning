@@ -1,7 +1,7 @@
-package temp.lab5.prob1.samplecode;
+package mpp.lab5.prob1.samplecode;
 
-import mpp.mpp.lab5.prob1.samplecode.windows.AddrWindow;
-import mpp.mpp.lab5.prob1.samplecode.windows.ProfileWindow;
+import mpp.lab5.prob1.samplecode.windows.AddrWindow;
+import mpp.lab5.prob1.samplecode.windows.ProfileWindow;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

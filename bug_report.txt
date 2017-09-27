@@ -1,0 +1,21 @@
+Tom Jones
+	reportedBy:Corazza
+	classname:mpp.labs.lab10.prob2.javapackage.Circle
+	description:computePerimeter incorrect
+	severity:0
+
+	reportedBy:Corazza
+	classname:mpp.labs.lab10.prob2.javapackage.ClosedCurve
+	severity:1
+
+Joe Smith
+	reportedBy:Corazza
+	classname:mpp.labs.lab10.prob2.javapackage.Rectangle
+	description:computePerimeter incorrect
+	severity:2
+
+	reportedBy:Corazza
+	classname:mpp.labs.lab10.prob2.javapackage.DataMiner
+	description:Should use Logger
+	severity:1
+

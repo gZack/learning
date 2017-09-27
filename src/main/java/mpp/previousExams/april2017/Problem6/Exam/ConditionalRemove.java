@@ -1,4 +1,4 @@
-package Problem6.Exam;
+package mpp.previousExams.april2017.Problem6.Exam;
 
 import java.util.function.Predicate;
 import java.util.*;

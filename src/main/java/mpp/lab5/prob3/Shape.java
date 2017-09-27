@@ -1,4 +1,5 @@
 package mpp.lab5.prob3;
 
-public class Shape {
+public interface Shape {
+    double computeArea();
 }

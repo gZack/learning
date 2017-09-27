@@ -1,4 +1,4 @@
-package lesson7.lecture.defaultmethodrules.intfaceclash2;
+package mpp.demos.lecture7.defaultmethodrules.intfaceclash2;
 
 public interface SupInt2 extends Top {
 	default void myMethod(int x) {

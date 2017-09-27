@@ -1,4 +1,4 @@
-package helperclasses;
+package mpp.previousExams.april2017.helperclasses;
 import java.util.*;
 public class Book {
 	private String isbn;

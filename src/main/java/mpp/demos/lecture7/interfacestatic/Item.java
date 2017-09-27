@@ -1,4 +1,4 @@
-package lesson7.lecture.interfacestatic;
+package mpp.demos.lecture7.interfacestatic;
 
 public class Item {
 	private double price;

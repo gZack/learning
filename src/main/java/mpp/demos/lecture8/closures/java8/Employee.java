@@ -1,4 +1,6 @@
-package lesson8.lecture.closures.java8;
+package mpp.demos.lecture8.closures.java8;
+
+import java.util.function.Function;
 
 public class Employee {
 	String name;
@@ -7,7 +9,9 @@ public class Employee {
 		this.name = n;
 		this.salary = s;
 	}
-	
+
+	Function<Employee, Boolean> booleanFunction = e -> this.equals(e);
+
 	@Override
 	public String toString() {
 		StringBuilder sb = new StringBuilder("<");
@@ -17,6 +21,14 @@ public class Employee {
 		sb.append("" + salary+">");
 		return sb.toString();
 		
+	}
+
+	public boolean equals(Employee employee){
+		if(employee == null){
+			return false;
+		}
+
+		return employee.name == name && employee.salary == salary;
 	}
 }
 

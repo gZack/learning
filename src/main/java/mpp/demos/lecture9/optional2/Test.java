@@ -1,4 +1,4 @@
-package lesson9.lecture.optional2;
+package mpp.demos.lecture9.optional2;
 import java.util.*;
 import java.util.stream.Stream;
 public class Test {
@@ -10,7 +10,8 @@ public class Test {
 		Stream<String> stream = Stream.empty();
 		//throws NoSuchElementException
 		System.out.println(stream.max(String::compareTo).get());
-		
+
+		Optional<String> maxStr = stream.max(String::compareTo);
 
 	}
 

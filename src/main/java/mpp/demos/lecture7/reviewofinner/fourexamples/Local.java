@@ -1,6 +1,4 @@
-package lesson7.lecture.reviewofinner.fourexamples;
-
-import lesson7.lecture.reviewofinner.fourexamples.Member.Pair;
+package mpp.demos.lecture7.reviewofinner.fourexamples;
 
 public class Local {
 	private String name = "Joe";	

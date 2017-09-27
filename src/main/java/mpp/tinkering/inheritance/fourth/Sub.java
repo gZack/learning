@@ -1,4 +1,4 @@
-package lesson4.lecture.staticinherit.fourth;
+package mpp.tinkering.inheritance.fourth;
 
 //Shows a static method can override a static method
 public class Sub extends Super {
@@ -6,7 +6,7 @@ public class Sub extends Super {
 		//super.tryit() //compiler error
 		tryit();
 	}
-//	public static void tryit() {
-//		System.out.println("trying it too");
-//	}
+	public static void tryit() {
+		System.out.println("trying it too");
+	}
 }

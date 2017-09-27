@@ -1,8 +1,3 @@
-D is class
-    -so one of B or C must be an interface cause java doesn't support multiple
-    inheritance. So in that super class implementation wins.
-    -both are interfaces, in this case D has to provide an implementation to the method.
-    or declare it as an abstract method which ultimately forces D to be an abstract
-D is interface
-    -in this case D has to provide a default implementation of
-    the method or declare unimplemented
+ArrayList
+    -super class: AbstractList
+    -Interface: List, Collection, Iterable, RandomAccess, Cloneable, java.io.Serializable

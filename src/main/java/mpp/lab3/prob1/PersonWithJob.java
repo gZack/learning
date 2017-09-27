@@ -1,8 +1,6 @@
-package temp.lab3.prob1;
+package mpp.lab3.prob1;
 
-import mpp.mpp.lab3.prob1.Person;
-
-public class PersonWithJob extends mpp.mpp.lab3.prob1.Person {
+public class PersonWithJob extends Person {
 	
 	private double salary;
 	
@@ -24,8 +22,8 @@ public class PersonWithJob extends mpp.mpp.lab3.prob1.Person {
 		return isEqual;
 	}
 	public static void main(String[] args) {
-		mpp.mpp.lab3.prob1.Person p1 = new PersonWithJob("Joe", 30000);
-		mpp.mpp.lab3.prob1.Person p2 = new Person("Joe");
+		Person p1 = new PersonWithJob("Joe", 30000);
+		Person p2 = new Person("Joe");
 		//As PersonsWithJobs, p1 should be equal to p2
 		System.out.println("p1.equals(p2)? " + p1.equals(p2));
 		System.out.println("p2.equals(p1)? " + p2.equals(p1));

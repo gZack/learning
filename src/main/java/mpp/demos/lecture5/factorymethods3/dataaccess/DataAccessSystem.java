@@ -1,4 +1,4 @@
-package lesson5.lecture.factorymethods3.dataaccess;
+package mpp.demos.lecture5.factorymethods3.dataaccess;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

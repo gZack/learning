@@ -1,4 +1,4 @@
-package lesson7.lecture.overrideequals.equalclassesstrategy2;
+package mpp.demos.lecture7.overrideequals.equalclassesstrategy2;
 
 /** 
  * INCORRECT: Person and PersonWithJob use equal-classes strategy

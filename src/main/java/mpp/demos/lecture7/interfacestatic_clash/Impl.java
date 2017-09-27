@@ -1,4 +1,4 @@
-package lesson7.lecture.interfacestatic_clash;
+package mpp.demos.lecture7.interfacestatic_clash;
 
 public class Impl implements Sup1 , Sup2 {
 	int x = myMethod();

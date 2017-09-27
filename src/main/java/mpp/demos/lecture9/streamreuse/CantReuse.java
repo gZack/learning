@@ -1,4 +1,4 @@
-package lesson9.lecture.streamreuse;
+package mpp.demos.lecture9.streamreuse;
 
 import java.util.List;
 import java.util.stream.Collectors;

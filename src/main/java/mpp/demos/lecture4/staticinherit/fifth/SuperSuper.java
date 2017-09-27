@@ -1,4 +1,4 @@
-package lesson4.lecture.staticinherit.fifth;
+package mpp.demos.lecture4.staticinherit.fifth;
 
 public class SuperSuper {
 	static void tryit() {

@@ -1,4 +1,4 @@
-package lesson9.lecture.consumerInt;
+package mpp.demos.lecture9.consumerInt;
 import java.util.function.Consumer;
 
 public class ConsumerTest {

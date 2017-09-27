@@ -1,9 +1,6 @@
-package lesson8.lecture.comparator2;
+package mpp.demos.lecture8.comparator2;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class EmployeeInfo {
 	static enum SortMethod {BYNAME, BYSALARY};
@@ -45,5 +42,10 @@ public class EmployeeInfo {
 		ei = new EmployeeInfo(EmployeeInfo.SortMethod.BYSALARY);
 		ei.sort(emps);
 		System.out.println(emps);*/
+
+		Set<Employee> set = new TreeSet<>(new EmployeeNameComparator());
+		set.add(joe);
+		set.add(joe2);
+
 	}
 }

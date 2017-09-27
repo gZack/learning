@@ -1,4 +1,4 @@
-package lesson8.lecture.functionalinterfaceannotation;
+package mpp.demos.lecture8.functionalinterfaceannotation;
 
 @FunctionalInterface
 public interface Example2 {

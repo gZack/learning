@@ -1,4 +1,4 @@
-package lesson4.lecture.staticinherit.first;
+package mpp.tinkering.inheritance.first;
 
 //Shows that static method are inherited
 public class Sub extends Super {

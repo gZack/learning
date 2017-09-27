@@ -1,4 +1,4 @@
-package helperclasses;
+package mpp.previousExams.april2017.helperclasses;
 
 public class BookCopy {
 	private Book book;

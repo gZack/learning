@@ -1,6 +1,4 @@
-package temp.lab4;
-
-import mpp.mpp.lab4.Employee;
+package mpp.lab4;
 
 public class Salaried extends Employee {
 

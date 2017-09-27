@@ -1,4 +1,4 @@
-package test;
+package mpp.demos.lecture3.problem1.code;
 
 
 public class Person {

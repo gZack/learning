@@ -1,8 +1,5 @@
-package mpp.lab5.prob2;
+package mpp.labs.lab7.prob5;
 
-public class FlyWithWings implements FlyBehaviour{
-    @Override
-    public void fly() {
-        System.out.println("flying with wings");
-    }
+public class FlyWithWings {
+
 }

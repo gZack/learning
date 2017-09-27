@@ -1,11 +1,11 @@
-package lesson5.lecture.factorymethods2.rulesets;
+package mpp.demos.lecture5.factorymethods2.rulesets;
+
+import mpp.demos.lecture5.factorymethods2.RuleSet;
+import mpp.demos.lecture5.factorymethods2.windows.AddressWindow;
+import mpp.demos.lecture5.factorymethods2.windows.CustomerProfileWindow;
 
 import java.awt.Component;
 import java.util.HashMap;
-
-import lesson5.lecture.factorymethods2.RuleSet;
-import lesson5.lecture.factorymethods2.windows.AddressWindow;
-import lesson5.lecture.factorymethods2.windows.CustomerProfileWindow;
 
 final public class RuleSetFactory {
 	private RuleSetFactory(){}

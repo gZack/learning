@@ -1,4 +1,4 @@
-package lesson7.lecture.overrideequals.composition;
+package mpp.demos.lecture7.overrideequals.composition;
 
 public class PersonWithJob  {
 	

@@ -1,4 +1,4 @@
-package lesson7.lecture.defaultmethods;
+package mpp.demos.lecture7.defaultmethods;
 
 public class Address {
 	private String street1, street2, city, state, zip;

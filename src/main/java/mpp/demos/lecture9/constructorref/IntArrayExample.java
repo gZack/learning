@@ -1,4 +1,4 @@
-package lesson9.lecture.constructorref;
+package mpp.demos.lecture9.constructorref;
 
 import java.math.BigInteger;
 import java.util.ArrayList;
@@ -17,12 +17,15 @@ public class IntArrayExample {
 		//Create a list of int[]s by mapping ints, as input lengths, to int[] 
 		//constructor
 		List<int[]> intArrs = ints.stream()
-				                  .map(int[]::new)
+				                  .map(t -> new int[t])
 				                  .collect(Collectors.toList());
+
+		Integer[] intArrs1 = ints.stream().toArray(Integer[]::new);
+		System.out.println(Arrays.toString(intArrs1));
 		
 		//Represent each int[] in the list as a string so it can be printed,
 		//mapping Arrays.toString to each int[] in the list
-		List<String> intArrsStr = intArrs.stream().map(Arrays::toString).collect(Collectors.toList());
+		List<String> intArrsStr = intArrs.stream().map(n -> Arrays.toString(n)).collect(Collectors.toList());
 		System.out.println(intArrsStr);
 		
 		

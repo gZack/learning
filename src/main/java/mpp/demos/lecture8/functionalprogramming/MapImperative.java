@@ -1,4 +1,4 @@
-package lesson8.lecture.functionalprogramming;
+package mpp.demos.lecture8.functionalprogramming;
 
 import java.util.ArrayList;
 import java.util.Arrays;

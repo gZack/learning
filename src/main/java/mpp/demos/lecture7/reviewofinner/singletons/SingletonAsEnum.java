@@ -1,4 +1,4 @@
-package lesson7.lecture.reviewofinner.singletons;
+package mpp.demos.lecture7.reviewofinner.singletons;
 
 /*
  * Sol 3
@@ -11,7 +11,7 @@ public enum SingletonAsEnum {
 
 //See how it works
 class TestSingleton {
-	static void main(String[] args) {
+	public static void main(String[] args) {
 		SingletonAsEnum instance = SingletonAsEnum.INSTANCE;
 	}
 }

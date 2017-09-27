@@ -1,4 +1,4 @@
-package lesson4.lecture.staticinherit.fourth;
+package mpp.demos.lecture4.staticinherit.fourth;
 
 //Shows a static method can override a static method
 public class Sub extends Super {

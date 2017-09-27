@@ -1,4 +1,4 @@
-package Problem3.Exam;
+package mpp.previousExams.april2017.Problem3.Exam;
 
 public class Person {
 	private String name;

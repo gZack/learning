@@ -1,4 +1,4 @@
-package lesson7.lecture.reviewofinner.local.inner;
+package mpp.demos.lecture7.reviewofinner.local.inner;
 
 public class Another {
 	int z = 4;

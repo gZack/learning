@@ -1,4 +1,4 @@
- package lesson7.lecture.reviewofinner.singletons;
+ package mpp.demos.lecture7.reviewofinner.singletons;
 
 
 /**

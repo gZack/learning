@@ -1,4 +1,4 @@
-package lesson5.lecture.factorymethods5.triangle;
+package mpp.demos.lecture5.factorymethods5.triangle;
 
 import java.util.Arrays;
 

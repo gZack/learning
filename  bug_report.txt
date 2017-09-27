@@ -1,0 +1,18 @@
+Tom Jones
+	Corazza
+	Corazza
+	computePerimeter incorrect
+	0
+	Corazza
+	Corazza
+	
+	1
+Joe Smith
+	Corazza
+	Corazza
+	computePerimeter incorrect
+	2
+	Corazza
+	Corazza
+	Should use Logger
+	1

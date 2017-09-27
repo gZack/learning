@@ -1,4 +1,4 @@
-package lesson9.labs.prob8;
+package mpp.tinkering.j8.lab9.prob8;
 
 public class Employee {
 	String firstName, lastName;

@@ -1,4 +1,4 @@
-package lesson4.lecture.staticinherit.second;
+package mpp.demos.lecture4.staticinherit.second;
 
 @SuppressWarnings("static-access")
 //Shows that, although static methods are inherited,

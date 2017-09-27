@@ -1,4 +1,4 @@
-package lesson8.lecture.closures.java7;
+package mpp.demos.lecture8.closures.java7;
 
 public class Employee {
 	String name;

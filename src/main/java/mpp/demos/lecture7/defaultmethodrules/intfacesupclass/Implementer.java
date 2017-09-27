@@ -1,4 +1,4 @@
-package lesson7.lecture.defaultmethodrules.intfacesupclass;
+package mpp.demos.lecture7.defaultmethodrules.intfacesupclass;
 
 public class Implementer extends SupClass implements SupInt1 {
 	//myMethod

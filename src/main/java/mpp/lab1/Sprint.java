@@ -1,4 +1,4 @@
-package temp.lab1;
+package mpp.lab1;
 
 import java.util.Date;
 import java.util.List;

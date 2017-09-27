@@ -1,6 +1,4 @@
-package temp.lab3.prob3.inherit;
-
-import mpp.mpp.lab3.prob3.inherit.Circle;
+package mpp.lab3.prob3.inherit;
 
 public class Cylinder extends Circle {
 

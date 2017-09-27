@@ -1,4 +1,4 @@
-package mpp.lab5.prob2;
+package mpp.labs.lab7.prob5;
 
 public class Main {
     public static void main(String[] args){

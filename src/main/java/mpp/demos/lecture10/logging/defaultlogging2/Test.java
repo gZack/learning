@@ -1,8 +1,8 @@
-package lesson10.lecture.logging.defaultlogging2;
+package mpp.demos.lecture10.logging.defaultlogging2;
+
+import mpp.demos.lecture10.logging.defaultlogging.LogSetup;
 
 import java.util.logging.Logger;
-
-import lesson10.lecture.logging.defaultlogging.LogSetup;
 
 /** 
  * This test will work provided logsetup.jar was added

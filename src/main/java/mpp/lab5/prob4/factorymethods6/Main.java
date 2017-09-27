@@ -1,11 +1,11 @@
-package lesson5.lecture.factorymethods6;
-import java.util.*;
+package mpp.lab5.prob4.factorymethods6;
+import mpp.lab5.prob4.factorymethods6.otherpackage.DataRecord;
+import mpp.lab5.prob4.factorymethods6.otherpackage.Database;
+import mpp.lab5.prob4.factorymethods6.studreport.GradeReport;
+import mpp.lab5.prob4.factorymethods6.studreport.StudentAndReport;
+import mpp.lab5.prob4.factorymethods6.studreport.StudentGradeReportFactory;
 
-import lesson5.lecture.factorymethods6.otherpackage.DataRecord;
-import lesson5.lecture.factorymethods6.otherpackage.Database;
-import lesson5.lecture.factorymethods6.studreport.GradeReport;
-import lesson5.lecture.factorymethods6.studreport.StudentAndReport;
-import lesson5.lecture.factorymethods6.studreport.StudentGradeReportFactory;
+import java.util.*;
 
 
 public class Main {
@@ -21,7 +21,7 @@ public class Main {
 		Collection<DataRecord> data = Database.h.values();
 		List<GradeReport> reports = new ArrayList<>();
 		for(DataRecord d : data) {
-			StudentAndReport sr 
+			StudentAndReport sr
 			  = StudentGradeReportFactory
 			      .createStudentAndReport(d.getName(), d.getGrade());
 			reports.add(sr.getReport());	

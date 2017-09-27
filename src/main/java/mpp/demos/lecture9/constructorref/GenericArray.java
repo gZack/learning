@@ -1,4 +1,4 @@
-package lesson9.lecture.constructorref;
+package mpp.demos.lecture9.constructorref;
 
 import java.util.*;
 import java.util.function.IntFunction;
@@ -11,7 +11,8 @@ public class GenericArray {
 		  = Arrays.asList("Eleven", "strikes", "the", "clock");
 		String[] stringArr 
 		  = strings.stream().toArray(String[]::new);
-		System.out.println(Arrays.toString(stringArr));	
+
+		System.out.println(Arrays.toString(stringArr));
 		//can accomplish same thing less efficiently like this
 		stringArr = myToArray(strings.stream(), String[]::new);
 		System.out.println(Arrays.toString(stringArr));

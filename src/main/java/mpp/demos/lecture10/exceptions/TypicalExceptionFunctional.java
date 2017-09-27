@@ -1,4 +1,4 @@
-package lesson10.lecture.exceptions;
+package mpp.demos.lecture10.exceptions;
 
 import java.io.BufferedReader;
 import java.io.File;

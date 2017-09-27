@@ -1,10 +1,8 @@
-package temp.lab5.prob1.samplecode.rulesets;
+package mpp.lab5.prob1.samplecode.rulesets;
 
-import mpp.mpp.lab5.prob1.samplecode.rulesets.AddressRuleSet;
-import mpp.mpp.lab5.prob1.samplecode.rulesets.CustomerProfileRuleSet;
-import mpp.mpp.lab5.tests.RuleSet;
-import mpp.mpp.lab5.tests.windows.AddressWindow;
-import mpp.mpp.lab5.tests.windows.CustomerProfileWindow;
+
+import mpp.lab5.prob1.samplecode.windows.AddrWindow;
+import mpp.lab5.prob1.samplecode.windows.ProfileWindow;
 
 import java.awt.*;
 import java.util.HashMap;
@@ -13,8 +11,8 @@ final public class RuleSetFactory {
 	private RuleSetFactory(){}
 	static HashMap<Class<? extends Component>, RuleSet> map = new HashMap<>();
 	static {
-		map.put(AddressWindow.class, new AddressRuleSet());
-		map.put(CustomerProfileWindow.class, new CustomerProfileRuleSet());
+		map.put(AddrWindow.class, new AddressRuleSet());
+		map.put(ProfileWindow.class, new CustomerProfileRuleSet());
 	}
 	public static RuleSet getRuleSet(Component c) {
 		Class<? extends Component> cl = c.getClass();

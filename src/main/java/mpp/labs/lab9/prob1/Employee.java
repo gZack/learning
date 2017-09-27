@@ -1,4 +1,4 @@
-package mpp.labs.lab9.comparators2;
+package mpp.labs.lab9.prob1;
 
 public class Employee {
 	String name;

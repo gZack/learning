@@ -1,7 +1,4 @@
-package temp.lab4;
-
-import mpp.mpp.lab4.Employee;
-import mpp.mpp.lab4.Order;
+package mpp.lab4;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -10,14 +7,14 @@ import java.util.List;
 public class Commissioned extends Employee {
     private double commission;
     private double baseSalary;
-    private List<mpp.mpp.lab4.Order> orders;
+    private List<Order> orders;
 
-    public Commissioned(final double baseSalary, final List<mpp.mpp.lab4.Order> orders){
+    public Commissioned(final double baseSalary, final List<Order> orders){
         this.baseSalary = baseSalary;
         this.orders = orders != null ? orders : new ArrayList<>();
     }
 
-    public void addOrder(mpp.mpp.lab4.Order order){
+    public void addOrder(Order order){
         orders.add(order);
     }
 

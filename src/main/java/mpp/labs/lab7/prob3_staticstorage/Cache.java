@@ -1,8 +1,8 @@
-package lesson7.labs.prob3_staticstorage;
+package mpp.labs.lab7.prob3_staticstorage;
 
-public class Cache {
+public interface Cache {
 	//shouldn't be static
-	public static long timeout() {
+	default long timeout() {
 		//seconds
 		return 1;
 	}

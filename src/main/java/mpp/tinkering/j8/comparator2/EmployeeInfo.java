@@ -1,7 +1,6 @@
-package mpp.demos.lecture8.comparator2;
+package mpp.tinkering.j8.comparator2;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -20,7 +19,7 @@ public class EmployeeInfo {
 			Collections.sort(emps, new EmployeeSalaryComparator());
 		}
 	}
-	
+
 	public static void main(String[] args) {
 		List<Employee> emps = new ArrayList<>();
 //		emps.add(new Employee("Joe", 100000));
@@ -31,8 +30,8 @@ public class EmployeeInfo {
 //		List<Employee> list = Arrays.asList(joe, joe2);
 //		Collections.sort(list, new EmployeeNameComparator());
 //		System.out.println(list);
-		
-		
+
+
 		System.out.println("joe equals joe2? " + joe.equals(joe2));
 		EmployeeNameComparator c = new EmployeeNameComparator();
 		System.out.println("joe equals joe2? " + (c.compare(joe, joe2)==0) );

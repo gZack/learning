@@ -1,4 +1,4 @@
-package temp.lab3.prob1;
+package mpp.lab3.prob1;
 
 
 public class Person {

@@ -1,4 +1,4 @@
-package lesson3.lecture.polymorphism1;
+package mpp.demos.lecture3.polymorphism1;
 
 
 class Employee {

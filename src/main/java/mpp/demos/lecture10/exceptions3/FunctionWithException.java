@@ -1,4 +1,4 @@
-package lesson10.lecture.exceptions3;
+package mpp.demos.lecture10.exceptions3;
 
 import java.util.function.Function;
 
@@ -7,7 +7,7 @@ public interface FunctionWithException<T, R> {
 	R apply(T t) throws Exception;
 
 
-	public static <T,R> Function<T,R> unchecked(FunctionWithException<T,R> f) {
+	public static <T,R> Function<T,R> unchecked(FunctionWithException<T, R> f) {
 		return x -> {	
 			try {
 				return f.apply(x);

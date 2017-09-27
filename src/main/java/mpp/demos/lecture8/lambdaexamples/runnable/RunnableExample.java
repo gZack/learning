@@ -1,4 +1,4 @@
-package lesson8.lecture.lambdaexamples.runnable;
+package mpp.demos.lecture8.lambdaexamples.runnable;
 
 import java.io.*;
 import java.nio.charset.*;

@@ -1,8 +1,5 @@
-package mpp.lab5.prob2;
+package mpp.labs.lab7.prob5;
 
-public class Quack implements QuackBehaviour{
-    @Override
-    public void quack() {
-        System.out.println("quacking");
-    }
+public class Quack {
+
 }

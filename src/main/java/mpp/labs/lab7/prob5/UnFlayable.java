@@ -1,7 +1,7 @@
 package mpp.labs.lab7.prob5;
 
-public interface Flayable {
+public interface UnFlayable {
     default void fly(){
-        System.out.println("Flying with wings");
+        System.out.println("Cannot fly");
     }
 }

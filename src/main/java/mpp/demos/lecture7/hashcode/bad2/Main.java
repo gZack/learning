@@ -1,4 +1,4 @@
-package lesson7.lecture.hashcode.bad2;
+package mpp.demos.lecture7.hashcode.bad2;
 
 import java.util.GregorianCalendar;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package lesson5.lecture.intfaces2;
+package mpp.demos.lecture5.intfaces2;
 
 public class Circle implements ClosedCurve {
 	private double radius;

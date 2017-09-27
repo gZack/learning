@@ -1,4 +1,4 @@
-package lesson3.lecture.orderofexec;
+package mpp.demos.lecture3.orderofexec;
 
 public class ClassE {
 

@@ -1,4 +1,4 @@
-package mpp.previousExams.april2017.PartB;
+package mpp.previousExams.april2017.problem1.PartB;
 import java.util.*;
 public class Book {
 	private String isbn;

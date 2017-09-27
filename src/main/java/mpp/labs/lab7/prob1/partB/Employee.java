@@ -1,4 +1,4 @@
-package lesson7.labs.prob1.partB;
+package mpp.labs.lab7.prob1.partB;
 
 public class Employee {
 	private String name;
@@ -28,4 +28,16 @@ public class Employee {
 	public boolean equals(Employee e) {
 		return e.name.equals(name) && e.salary == salary;
 	}
+
+	/*@Override
+	public boolean equals(Object obj) {
+
+		if(obj == null || !obj.getClass().equals(this.getClass())){
+			return false;
+		}
+
+		Employee e = (Employee)obj;
+
+		return e.getName().equals(name) && e.getSalary() == salary;
+	}*/
 }

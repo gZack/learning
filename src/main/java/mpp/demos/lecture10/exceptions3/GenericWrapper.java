@@ -1,6 +1,5 @@
-package lesson10.lecture.exceptions3;
+package mpp.demos.lecture10.exceptions3;
 
-import static lesson10.lecture.exceptions3.FunctionWithException.unchecked;
 
 import java.io.File;
 import java.util.List;
@@ -9,7 +8,7 @@ import java.util.stream.Stream;
 
 public class GenericWrapper {
 	public List<String> getCanonicalPaths(String[] dirs)  {
-		return Stream.of(dirs).map(path -> unchecked((String p) ->
+		return Stream.of(dirs).map(path -> FunctionWithException.unchecked((String p) ->
 				new File(p).getCanonicalPath()).apply(path))
 			.map(Object::toString).collect(Collectors.toList());
 	}

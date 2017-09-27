@@ -1,7 +1,4 @@
-package temp.lab3.prob2;
-
-import mpp.mpp.lab3.prob2.Apartement;
-import mpp.mpp.lab3.prob2.LandLord;
+package mpp.lab3.prob2;
 
 import java.util.ArrayList;
 import java.util.List;

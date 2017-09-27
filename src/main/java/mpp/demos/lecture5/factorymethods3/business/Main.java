@@ -1,12 +1,11 @@
-package lesson5.lecture.factorymethods3.business;
+package mpp.demos.lecture5.factorymethods3.business;
+
+import mpp.demos.lecture5.factorymethods3.dataaccess.Dao;
+import mpp.demos.lecture5.factorymethods3.dataaccess.DataAccess;
+import mpp.demos.lecture5.factorymethods3.dataaccess.DataAccessFactory;
 
 import java.sql.SQLException;
 import java.util.List;
-
-import lesson5.lecture.factorymethods3.dataaccess.DataAccess;
-import lesson5.lecture.factorymethods3.dataaccess.Dao;
-import lesson5.lecture.factorymethods3.dataaccess.DataAccessFactory;
-import lesson5.lecture.factorymethods3.dataaccess.DataAccessSystem;
 
 public class Main {
 

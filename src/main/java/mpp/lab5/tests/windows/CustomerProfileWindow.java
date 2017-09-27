@@ -1,8 +1,8 @@
-package temp.lab5.tests.windows;
+package mpp.lab5.tests.windows;
 
-import mpp.mpp.lab5.tests.RuleSet;
-import mpp.mpp.lab5.tests.rulesets.RuleException;
-import mpp.mpp.lab5.tests.rulesets.RuleSetFactory;
+import mpp.lab5.tests.RuleSet;
+import mpp.lab5.tests.rulesets.RuleException;
+import mpp.lab5.tests.rulesets.RuleSetFactory;
 
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;

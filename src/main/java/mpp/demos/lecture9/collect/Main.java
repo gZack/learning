@@ -1,4 +1,4 @@
-package lesson9.lecture.collect;
+package mpp.demos.lecture9.collect;
 import java.util.*;
 import java.util.stream.Collectors;
 public class Main {

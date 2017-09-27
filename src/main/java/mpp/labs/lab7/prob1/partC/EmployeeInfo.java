@@ -1,4 +1,4 @@
-package lesson7.labs.prob1.partC;
+package mpp.labs.lab7.prob1.partC;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -78,6 +78,8 @@ public class EmployeeInfo {
 		};
 
 		List<Employee> answer = removeDuplicates(list);
+		System.out.println("size: " + answer.size());
+		System.out.println("size: " + dupsRemoved.size());
 		System.out.println("Is answer correct? " + listsAreEqual(answer, dupsRemoved));
 	}
 	

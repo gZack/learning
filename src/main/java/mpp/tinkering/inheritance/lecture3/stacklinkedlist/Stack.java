@@ -1,4 +1,4 @@
-package lesson3.lecture.stacklinkedlist;
+package mpp.tinkering.inheritance.lecture3.stacklinkedlist;
 
 import java.util.ArrayList;
 

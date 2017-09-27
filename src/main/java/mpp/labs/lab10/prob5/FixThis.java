@@ -1,20 +1,19 @@
-package lesson10.labs.prob5;
+package mpp.labs.lab10.prob5;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class FixThis {
 	/* This method creates a compiler error -- try to fix it
 	List<String> processList(List<String> list)  {
 
 	    return list.stream()
-	    		   .map(x -> doNothingIfShort(x)) // This will fail to compile 
+	    		   .map(x -> doNothingIfShort(x)) // This will fail to compile
 	               .collect(Collectors.toList());
-	 
+
 	}*/
-	
-	 
+
+
 	String doNothingIfShort(String input) throws InputTooLongException {
 	    if (input.length() > 3) throw new InputTooLongException();
 	    else return input;

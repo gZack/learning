@@ -1,4 +1,4 @@
-package lesson7.lecture.hashcode.good;
+package mpp.demos.lecture7.hashcode.good;
 
 import java.util.GregorianCalendar;
 import java.util.HashMap;
@@ -31,6 +31,12 @@ public class Main {
 		System.out.println(h.get(lookup));
 		System.out.println("Lookup"+lookup);
 		System.out.println("p1"+key1);
+
+		long t = 100l;
+
+		int x = (int)(t^(t>>>32));
+		Float.floatToIntBits(t);
+		Double.doubleToLongBits(t);
 		
 	}
 

@@ -1,6 +1,9 @@
-package lesson10.labs.prob6;
+package mpp.labs.lab10.prob6;
+
+import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 
 public class GuestListJava8 {
@@ -30,6 +33,15 @@ public class GuestListJava8 {
 	
 	public void printListOfExpectedFemaleGuests(List<Guest> invited) {
 		//implement
+
+		invited.stream()
+				.filter(guest -> PredicateWithException
+									.unchecked((Guest t) ->
+											this.checkLegal(t)).test(guest))
+				.filter(guest -> guest.isPlanningToCome())
+				.filter(guest -> guest.getGender() == Gender.F)
+				.sorted()
+				.forEach(System.out::println);
 	}
 	
 	

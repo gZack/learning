@@ -1,4 +1,4 @@
-package lesson5.lecture.intfaces1;
+package mpp.demos.lecture5.intfaces1;
 
 public class Circle {
 	private double radius;

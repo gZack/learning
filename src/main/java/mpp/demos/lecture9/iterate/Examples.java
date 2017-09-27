@@ -1,4 +1,4 @@
-package lesson9.lecture.iterate;
+package mpp.demos.lecture9.iterate;
 import java.math.BigInteger;
 import java.util.stream.*;
 public class Examples {

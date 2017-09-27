@@ -1,4 +1,4 @@
-package temp.lab3.prob3.compo;
+package mpp.lab3.prob3.compo;
 
 public class Circle {
 

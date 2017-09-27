@@ -1,4 +1,4 @@
-package lesson4.lecture.staticinherit.third;
+package mpp.demos.lecture4.staticinherit.third;
 
 public class Super {
 	

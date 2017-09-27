@@ -1,4 +1,4 @@
-package lesson9.labs.prob9;
+package mpp.tinkering.j8.lab9.prob9;
 
 import java.util.ArrayList;
 import java.util.List;

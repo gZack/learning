@@ -1,4 +1,4 @@
-package lesson4.lecture.openclosed.closedcurve.good;
+package mpp.demos.lecture4.openclosed.closedcurve.good;
 
 public final class Circle extends ClosedCurve {
 	private final double radius;

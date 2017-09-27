@@ -1,4 +1,4 @@
-package lesson5.labs.prob4.personbirthinfo;
+package mpp.demos.lecture5.prob4.personbirthinfo;
 
 import java.time.LocalDate;
 

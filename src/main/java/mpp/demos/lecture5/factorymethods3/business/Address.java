@@ -1,4 +1,4 @@
-package lesson5.lecture.factorymethods3.business;
+package mpp.demos.lecture5.factorymethods3.business;
 
 public class Address {
 	private String street, city, state, zip;

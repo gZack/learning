@@ -1,4 +1,4 @@
-package lesson7.lecture.eq;
+package mpp.demos.lecture7.eq;
 
 public class Person {
 	private String name;

@@ -1,4 +1,4 @@
-package prob2;
+package mpp.quiz.prob2;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -43,13 +43,13 @@ public class Main {
 		};
 		
 		//uncomment when you are ready
-		
-//		loadQueue(h, bill);
-//		loadQueue(h, mark);
-//		loadQueue(h, sal);
-//		Admin a = new Admin(new Department[]{bill,mark,sal});
-//		System.out.println(a.hourlyCompanyMessage());
-//		System.out.println(a.hourlyCompanyMessage());
+
+		loadQueue(h, bill);
+		loadQueue(h, mark);
+		loadQueue(h, sal);
+		Admin a = new Admin(new Department[]{bill,mark,sal});
+		System.out.println(a.hourlyCompanyMessage());
+		System.out.println(a.hourlyCompanyMessage());
 	}
 	
 	private static void loadQueue(HashMap<Object, List<String>> h, Department d) {		

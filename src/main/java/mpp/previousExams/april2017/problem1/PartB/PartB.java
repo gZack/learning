@@ -1,4 +1,4 @@
-package mpp.previousExams.april2017.PartB;
+package mpp.previousExams.april2017.problem1.PartB;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

@@ -1,4 +1,5 @@
 package mpp.tinkering;
 
-public class Product {
+public interface Product {
+    double getPrice();
 }

@@ -1,4 +1,4 @@
-package lesson8.lecture.newtech_modifylist;
+package mpp.demos.lecture8.newtech_modifylist;
 
 import java.util.Arrays;
 import java.util.List;
@@ -9,7 +9,7 @@ public class ActListConsumerInner {
 		List<String> list = Arrays.asList("Hello there", "Goodbye", "Back soon", 
 				"Away", "On Vacation", "Everywhere you want to be");
 		ActListConsumerInner act = new ActListConsumerInner();
-		ActListConsumerInner.MyConsumer consumer = act.new MyConsumer();
+		MyConsumer consumer = act.new MyConsumer();
 		act.printEach(consumer, list);		
 	}
 	

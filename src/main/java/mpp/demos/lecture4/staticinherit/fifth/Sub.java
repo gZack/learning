@@ -1,4 +1,4 @@
-package lesson4.lecture.staticinherit.fifth;
+package mpp.demos.lecture4.staticinherit.fifth;
 
 //Shows why compiler is able to bind static methods 
 //It finds the first ancestor in the inheritance
@@ -8,5 +8,4 @@ public class Sub extends Super {
 	public static void main(String[] args) {
 		tryit();
 	}
-
 }

@@ -1,4 +1,4 @@
-package lesson4.lecture.template;
+package mpp.demos.lecture4.template;
 
 public class Main {
 

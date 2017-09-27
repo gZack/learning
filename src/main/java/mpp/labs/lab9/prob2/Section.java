@@ -1,4 +1,4 @@
-package lesson9.labs.prob5;
+package mpp.labs.lab9.prob2;
 
 import java.util.Arrays;
 import java.util.stream.Collectors;
@@ -6,7 +6,8 @@ import java.util.stream.Stream;
 
 public class Section {
 	public static Stream<String> streamSection(Stream<String> stream, int m, int n) {
-		return null; //implement 
+
+		return stream.skip(m).limit(n-m+1); //implement
 	}
 	
 	public static void main(String[] args) {

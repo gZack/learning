@@ -1,4 +1,4 @@
-package lesson8.lecture.functionalprogramming;
+package mpp.demos.lecture8.functionalprogramming;
 
 public class FactorialImperative {
 	/** Assumes n is a positive integer */

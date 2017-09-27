@@ -1,4 +1,4 @@
-package lesson5.lecture.factorymethods6.studreport;
+package mpp.lab5.prob4.factorymethods6.studreport;
 
 //Outside of the studreport package, GradeReport is immutable 
 //Immuatability depends on the fact that Student is also immutable

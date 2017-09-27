@@ -1,10 +1,15 @@
-package prob2;
+package mpp.quiz.prob2;
 
-public class SalesDept {
+public class SalesDept extends Department {
 	//implement
 	
 	
 	public void requestMarketingMaterials() {
 		//not implemented
+	}
+
+	@Override
+	public String getName() {
+		return "Sales";
 	}
 }

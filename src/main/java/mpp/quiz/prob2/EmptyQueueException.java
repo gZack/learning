@@ -1,4 +1,4 @@
-package prob2;
+package mpp.quiz.prob2;
 
 /* Do Not Modify */
 public class EmptyQueueException extends Exception {

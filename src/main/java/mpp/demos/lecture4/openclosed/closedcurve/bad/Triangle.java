@@ -1,4 +1,4 @@
-package lesson4.lecture.openclosed.closedcurve.bad;
+package mpp.demos.lecture4.openclosed.closedcurve.bad;
 
 import java.util.Arrays;
 

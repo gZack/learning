@@ -1,9 +1,9 @@
-package lesson10.labs.prob2.javapackage;
+package mpp.labs.lab10.prob2.javapackage;
+
+import mpp.labs.lab10.prob2.bugreporter.BugReport;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import lesson10.labsolns.prob2.bugreporter.BugReport;
 
 @BugReport(assignedTo="Joe Smith", severity=1, reportedBy="Corazza", description="Should use Logger")
 public class DataMiner {

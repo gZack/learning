@@ -1,4 +1,4 @@
-package lesson10.lecture.checkedexceptions;
+package mpp.demos.lecture10.checkedexceptions;
 
 import java.io.File;
 import java.io.IOException;

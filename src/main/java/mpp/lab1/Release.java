@@ -1,6 +1,4 @@
-package temp.lab1;
-
-import mpp.mpp.lab1.Sprint;
+package mpp.lab1;
 
 import java.util.Date;
 import java.util.List;
@@ -9,7 +7,7 @@ public class Release {
 
     private String releaseTag;
     private Date releaseDate;
-    private List<mpp.mpp.lab1.Sprint> sprints;
+    private List<Sprint> sprints;
 
     public String getReleaseTag() {
         return releaseTag;
@@ -27,7 +25,7 @@ public class Release {
         this.releaseDate = releaseDate;
     }
 
-    public List<mpp.mpp.lab1.Sprint> getSprints() {
+    public List<Sprint> getSprints() {
         return sprints;
     }
 

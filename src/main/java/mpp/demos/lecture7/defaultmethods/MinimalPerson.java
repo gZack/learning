@@ -1,4 +1,4 @@
-package lesson7.lecture.defaultmethods;
+package mpp.demos.lecture7.defaultmethods;
 
 public class MinimalPerson implements NameAddress {
 	private String firstName, lastName, street, city, state;

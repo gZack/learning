@@ -1,4 +1,4 @@
-package lesson3.lecture.polymorphism2;
+package mpp.demos.lecture3.polymorphism2;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package lesson10.labs.prob8;
+package mpp.labs.lab10.prob8;
 
 //Show the methods are not threadsafe.
 //Then modify so that they are threadsafe.

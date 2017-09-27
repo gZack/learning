@@ -1,4 +1,4 @@
-package lesson8.lecture.functionalprogramming;
+package mpp.demos.lecture8.functionalprogramming;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

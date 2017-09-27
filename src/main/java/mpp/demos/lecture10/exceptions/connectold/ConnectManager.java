@@ -1,4 +1,4 @@
-package lesson10.lecture.exceptions.connectold;
+package mpp.demos.lecture10.exceptions.connectold;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

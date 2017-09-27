@@ -1,4 +1,4 @@
-package lesson7.lecture.overrideequals.equalclassesstrategy3;
+package mpp.demos.lecture7.overrideequals.equalclassesstrategy3;
 
 /**
  * CORRECT: Same classes strategy for superclass and subclass.

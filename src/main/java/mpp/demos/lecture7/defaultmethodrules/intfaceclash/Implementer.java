@@ -1,4 +1,4 @@
-package lesson7.lecture.defaultmethodrules.intfaceclash;
+package mpp.demos.lecture7.defaultmethodrules.intfaceclash;
 
 abstract public class Implementer implements SupInt1, SupInt2 {
 	//clash must be resolved, either by making myMethod abstract

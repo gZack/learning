@@ -1,4 +1,4 @@
-package lesson7.lecture.reviewofinner.fourexamples;
+package mpp.demos.lecture7.reviewofinner.fourexamples;
 
 public class Static {
 	private String name = "Joe";

@@ -1,4 +1,6 @@
-package lesson8.lecture.methodreferences;
+package mpp.demos.lecture8.methodreferences;
+
+import java.util.function.BooleanSupplier;
 
 public class Employee {
 	String name;
@@ -19,5 +21,6 @@ public class Employee {
 		this.name = n;
 		this.salary = s;
 	}
+
 }
 

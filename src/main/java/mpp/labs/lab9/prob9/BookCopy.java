@@ -1,4 +1,4 @@
-package lesson9.labs.prob9;
+package mpp.labs.lab9.prob9;
 
 @SuppressWarnings("unused")
 public class BookCopy {

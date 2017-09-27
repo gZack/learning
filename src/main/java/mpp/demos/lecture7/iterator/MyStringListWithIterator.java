@@ -1,4 +1,4 @@
-package lesson7.lecture.iterator;
+package mpp.demos.lecture7.iterator;
 
 import java.util.*;
 import java.util.function.Consumer;
@@ -167,7 +167,8 @@ public class MyStringListWithIterator implements Iterable<String> {
 			}	
 		};
 		System.out.println("------using new forEach method------");
-		l.forEach(consumer);
+		l.forEach(consumer
+		);
 
 	}
 

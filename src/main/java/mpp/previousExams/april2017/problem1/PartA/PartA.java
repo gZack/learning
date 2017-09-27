@@ -1,4 +1,4 @@
-package mpp.previousExams.april2017.PartA;
+package mpp.previousExams.april2017.problem1.PartA;
 
 import java.util.function.BiPredicate;
 

@@ -1,4 +1,4 @@
-package lesson7.lecture.hashcode.bad3;
+package mpp.demos.lecture7.hashcode.bad3;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -61,9 +61,9 @@ public class Point {
 		  public static void main(String[] args) {
 			    Point a = new Point(5,5);
 			    Set<Point> set = new HashSet<>();
-			    
+
 			    set.add(a);
-			    a.setX(8);
+			    a.setX(8);//this will change the objects hash code
 			    System.out.println(set.contains(a));
 			    
 			    set.add(a);

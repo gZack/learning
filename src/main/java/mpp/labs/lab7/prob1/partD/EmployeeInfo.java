@@ -1,4 +1,4 @@
-package lesson7.labs.prob1.partD;
+package mpp.labs.lab7.prob1.partD;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -58,7 +58,7 @@ public class EmployeeInfo {
 				add(new Employee("Bob", 60000));
 			}
 		};
-		
+
 		//List with duplicates removed - correctly computed
 		List<Employee> dupsRemoved = new ArrayList<Employee>() {
 			{

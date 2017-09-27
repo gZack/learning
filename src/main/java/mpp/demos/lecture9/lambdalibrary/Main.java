@@ -1,8 +1,9 @@
-package lesson9.lecture.lambdalibrary;
+package mpp.demos.lecture9.lambdalibrary;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Main {
 
@@ -31,7 +32,6 @@ public class Main {
 		List<String> listStr = LambdaLibrary.NAMES_IN_CITY.apply(list, "Ma");
 		System.out.println(listStr);
 
-		
 	}
 
 }

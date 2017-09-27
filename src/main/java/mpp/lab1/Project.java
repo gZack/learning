@@ -1,8 +1,4 @@
-package temp.lab1;
-
-import mpp.mpp.lab1.Backlog;
-import mpp.mpp.lab1.ProjectManager;
-import mpp.mpp.lab1.Release;
+package mpp.lab1;
 
 import java.util.Date;
 import java.util.List;
@@ -12,7 +8,7 @@ public class Project {
     private String name;
     private Date deadline;
     private List<Release> releases;
-    private mpp.mpp.lab1.Backlog backlog;
+    private Backlog backlog;
     private ProjectManager projectManager;
 
     public String getName() {
@@ -39,7 +35,7 @@ public class Project {
         this.releases = releases;
     }
 
-    public mpp.mpp.lab1.Backlog getBacklog() {
+    public Backlog getBacklog() {
         return backlog;
     }
 

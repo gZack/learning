@@ -1,4 +1,4 @@
-package lesson9.lecture.lambdalibrary;
+package mpp.demos.lecture9.lambdalibrary;
 
 import java.util.List;
 import java.util.function.BiFunction;

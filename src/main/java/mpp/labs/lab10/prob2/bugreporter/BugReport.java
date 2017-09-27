@@ -1,4 +1,4 @@
-package lesson10.labs.prob2.bugreporter;
+package mpp.labs.lab10.prob2.bugreporter;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

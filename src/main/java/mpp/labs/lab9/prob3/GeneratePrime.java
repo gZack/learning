@@ -1,42 +1,45 @@
-package mpp.labs.lab9.lab3;
+package mpp.labs.lab9.prob3;
 
 import java.math.BigInteger;
-import java.util.Collections;
-import java.util.List;
-import java.util.Random;
 import java.util.function.IntUnaryOperator;
-import java.util.stream.Collector;
-import java.util.stream.Collectors;
+import java.util.function.UnaryOperator;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class GeneratePrime {
 
+    final UnaryOperator<BigInteger> f = this::nextPrime;
+    //final IntStream prime = IntStream.iterate(2,f);
+    Stream<BigInteger> big = Stream.iterate(BigInteger.valueOf(2),f);
+
+    public void evaluator(){
+        big.limit(12).forEach(System.out::println);
+
+        //Stream<BigInteger> bigIntegers = prime.mapToObj(n -> new BigInteger(String.valueOf(n)));
+        //bigIntegers.limit(10).forEach(System.out::println);
+    }
+
     public static void main(String[] args){
-
         GeneratePrime generatePrime = new GeneratePrime();
-        final IntUnaryOperator f = generatePrime::nextPrime;
-        final IntStream prime = IntStream.iterate(2,f);
+        generatePrime.evaluator();
 
-        //prime.forEach(System.out::println);
-        Stream<BigInteger> bigIntegers = prime.mapToObj(n -> new BigInteger(String.valueOf(n)));
-
-        bigIntegers.limit(10).forEach(System.out::println);
-
+        //System.out.println(generatePrime.f.apply(BigInteger.valueOf(2)));
 
     }
 
-    int nextPrime(int n){
+    BigInteger nextPrime(BigInteger n){
 
-        n++;
+        //n++;
+        n = n.add(BigInteger.ONE);
+
         while (!isPrime(n)){
-            n++;
+            n = n.add(BigInteger.ONE);
         }
 
         return n;
     }
 
-    boolean isPrime(int n){
-        return BigInteger.valueOf(n).isProbablePrime(1);
+    boolean isPrime(BigInteger n){
+        return n.isProbablePrime(1);
     }
 }

@@ -1,32 +1,33 @@
-package mpp.labs.lab9.prob3;
+package mpp.labs.lab9.prob4;
 
 import java.math.BigInteger;
+import java.util.function.BiFunction;
 import java.util.function.IntUnaryOperator;
 import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 public class GeneratePrime {
 
+    final IntUnaryOperator f = this::nextPrime;
+    static final BiFunction<Long, IntUnaryOperator, IntStream>
+            reusableStream = (l,f) -> IntStream.iterate(2,f).limit(l);
+
     public static void main(String[] args){
-
         GeneratePrime generatePrime = new GeneratePrime();
-        final IntUnaryOperator f = generatePrime::nextPrime;
-        final IntStream prime = IntStream.iterate(2,f);
 
-        prime.limit(10).forEach(System.out::println);
-        Stream<BigInteger> bigIntegers = prime.mapToObj(n -> new BigInteger(String.valueOf(n)));
-        bigIntegers.limit(10).forEach(System.out::println);
+        generatePrime.printFirstNPrimes(1000);
+        System.out.println("----------");
+        generatePrime.printFirstNPrimes(2000);
+    }
 
-
+    private void printFirstNPrimes(long n){
+        reusableStream.apply(n,f).forEach(System.out::println);
     }
 
     int nextPrime(int n){
-
         n++;
         while (!isPrime(n)){
             n++;
         }
-
         return n;
     }
 

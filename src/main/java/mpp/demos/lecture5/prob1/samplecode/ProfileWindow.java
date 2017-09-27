@@ -1,4 +1,4 @@
-package lesson5.labs.prob1.samplecode;
+package mpp.demos.lecture5.prob1.samplecode;
 
 import java.awt.BorderLayout;
 import java.awt.Component;

@@ -1,4 +1,4 @@
-package Problem4.Exam;
+package mpp.previousExams.april2017.Problem4.Exam;
 
 @SuppressWarnings("serial")
 public class IllegalWordException extends Exception {

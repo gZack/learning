@@ -1,4 +1,4 @@
-package lesson8.lecture.methodreferences.objinstance.print;
+package mpp.demos.lecture8.methodreferences.objinstance.print;
 
 import javafx.application.Application;
 import javafx.scene.Scene;

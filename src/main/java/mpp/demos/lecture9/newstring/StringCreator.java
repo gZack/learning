@@ -1,4 +1,4 @@
-package lesson9.lecture.newstring;
+package mpp.demos.lecture9.newstring;
 import java.util.function.*;
 public class StringCreator {
 	public static void main(String[] args) {

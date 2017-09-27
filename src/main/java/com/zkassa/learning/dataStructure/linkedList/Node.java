@@ -1,0 +1,19 @@
+package com.zkassa.learning.dataStructure.linkedList;
+
+public class Node {
+    public int data;
+    public Node next;
+
+    public Node(int data) {
+        this.data = data;
+        this.next = null;
+    }
+
+    public int getData() {
+        return data;
+    }
+
+    public Node getNext() {
+        return next;
+    }
+}

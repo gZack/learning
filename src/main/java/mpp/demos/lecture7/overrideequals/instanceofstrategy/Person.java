@@ -1,4 +1,4 @@
-package lesson7.lecture.overrideequals.instanceofstrategy;
+package mpp.demos.lecture7.overrideequals.instanceofstrategy;
 
 /** 
  * CORRECT: Use instanceof strategy for equals and prevent

@@ -1,4 +1,4 @@
-package lesson5.lecture.intfaces2;
+package mpp.demos.lecture5.intfaces2;
 
 public class Rectangle implements ClosedCurve {
 	private double length, width;

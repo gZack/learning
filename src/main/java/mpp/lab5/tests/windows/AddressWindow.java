@@ -1,4 +1,8 @@
-package temp.lab5.tests.windows;
+package mpp.lab5.tests.windows;
+
+import mpp.lab5.tests.RuleSet;
+import mpp.lab5.tests.rulesets.RuleException;
+import mpp.lab5.tests.rulesets.RuleSetFactory;
 
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
@@ -8,10 +12,6 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
-
-import mpp.mpp.lab5.tests.RuleSet;
-import mpp.mpp.lab5.tests.rulesets.RuleException;
-import mpp.mpp.lab5.tests.rulesets.RuleSetFactory;
 
 public class AddressWindow extends JFrame {
 	public AddressWindow() {

@@ -1,4 +1,4 @@
-package Problem4.Exam;
+package mpp.previousExams.april2017.Problem4.Exam;
 
 import java.util.Arrays;
 import java.util.List;
@@ -13,9 +13,9 @@ public class WordGame {
 	//This method throws an IllegalWordException
 	//Find a way to handle it. Use best practices
 	
-	//public List<String> adjustWords(List<String> words) {
-		//return words.stream().map(w -> verifyWord(w).toLowerCase()).collect(Collectors.toList());
-	//}
+	public List<String> adjustWords(List<String> words) {
+		return words.stream().map(w -> FunctionWithException.unchecked((String o) -> verifyWord(o)).apply(w)).collect(Collectors.toList());
+	}
 	
 	private String verifyWord(String word) throws IllegalWordException {
 		if("A, B, C, E, M, N, R, S, T".contains(""+word.charAt(0))) {
@@ -31,8 +31,8 @@ public class WordGame {
 		WordGame wg = new WordGame();
 		
 		//uncomment when you are ready
-		//System.out.println(wg.adjustWords(sampleList1));
-		//System.out.println(wg.adjustWords(sampleList2));
+		System.out.println(wg.adjustWords(sampleList1));
+		System.out.println(wg.adjustWords(sampleList2));
 	}
 	
 	

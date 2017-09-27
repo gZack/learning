@@ -1,10 +1,10 @@
-package mpp.lab5.prob2;
+package mpp.labs.lab7.prob5;
 
-public class RubberDuck extends Duck {
+public class RubberDuck extends Duck implements UnFlayable {
 
-    public RubberDuck(){
-        this.flyBehaviour = new CannotFly();
-        this.quackBehaviour = new Squeak();
+    @Override
+    public void fly() {
+        UnFlayable.super.fly();
     }
 
     @Override

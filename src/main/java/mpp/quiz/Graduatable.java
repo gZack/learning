@@ -1,4 +1,5 @@
 package mpp.quiz;
 
-public class CompltedCourse {
+public interface Graduatable {
+    int totalCourseHour();
 }

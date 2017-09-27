@@ -1,4 +1,4 @@
-package lesson7.labs.prob3_staticstorage;
+package mpp.labs.lab7.prob3_staticstorage;
 
 public class Customer {
 	private String name;

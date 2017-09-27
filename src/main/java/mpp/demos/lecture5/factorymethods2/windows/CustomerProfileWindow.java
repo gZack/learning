@@ -1,4 +1,8 @@
-package lesson5.lecture.factorymethods2.windows;
+package mpp.demos.lecture5.factorymethods2.windows;
+
+import mpp.demos.lecture5.factorymethods2.RuleSet;
+import mpp.demos.lecture5.factorymethods2.rulesets.RuleException;
+import mpp.demos.lecture5.factorymethods2.rulesets.RuleSetFactory;
 
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
@@ -8,10 +12,6 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
-
-import lesson5.lecture.factorymethods2.RuleSet;
-import lesson5.lecture.factorymethods2.rulesets.RuleException;
-import lesson5.lecture.factorymethods2.rulesets.RuleSetFactory;
 
 public class CustomerProfileWindow extends JFrame {
 	public CustomerProfileWindow() {

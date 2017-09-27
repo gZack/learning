@@ -1,13 +1,11 @@
-package temp.lab3.prob2;
-
-import mpp.mpp.lab3.prob2.Building;
+package mpp.lab3.prob2;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class LandLord {
 
-    private List<mpp.mpp.lab3.prob2.Building> buildings;
+    private List<Building> buildings;
 
     public LandLord(){
         this.buildings = new ArrayList<>();
@@ -17,7 +15,7 @@ public class LandLord {
 
         double totalMonthlyProfit = 0.0;
 
-        for (mpp.mpp.lab3.prob2.Building building : buildings){
+        for (Building building : buildings){
             totalMonthlyProfit += building.getProfit();
         }
 

@@ -1,4 +1,8 @@
-package temp.lab5.prob1.samplecode.windows;
+package mpp.lab5.prob1.samplecode.windows;
+
+import mpp.lab5.prob1.samplecode.rulesets.RuleException;
+import mpp.lab5.prob1.samplecode.rulesets.RuleSet;
+import mpp.lab5.prob1.samplecode.rulesets.RuleSetFactory;
 
 import java.awt.BorderLayout;
 import java.awt.Component;
@@ -10,11 +14,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JTextField;
+import javax.swing.*;
 
 public class ProfileWindow extends JFrame {
 	private JPanel topPanel;
@@ -145,7 +145,22 @@ public class ProfileWindow extends JFrame {
 			String n = System.getProperty("line.separator");
 			String output = name + n + street + n + city + ", "+state+" "+zip;
 			System.out.println(output);
-			clearFields();
+			RuleSet addressRules = RuleSetFactory.getRuleSet(ProfileWindow.this);
+			try {
+
+				addressRules.applyRules(ProfileWindow.this);
+				//if rules pass...
+				//submit data
+				clearFields();
+				JOptionPane.showMessageDialog(ProfileWindow.this,
+						"Submitted!", "Success",JOptionPane.INFORMATION_MESSAGE);
+			} catch(RuleException e) {
+				JOptionPane.showMessageDialog(ProfileWindow.this,
+						"Error: "+e.getMessage(),
+						"Error",
+						JOptionPane.ERROR_MESSAGE);
+
+			}
 			
 		}
 	}

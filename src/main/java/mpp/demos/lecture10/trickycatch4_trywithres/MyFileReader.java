@@ -1,4 +1,4 @@
-package lesson10.lecture.trickycatch4_trywithres;
+package mpp.demos.lecture10.trickycatch4_trywithres;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;

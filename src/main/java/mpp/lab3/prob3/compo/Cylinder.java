@@ -1,10 +1,8 @@
-package temp.lab3.prob3.compo;
-
-import mpp.mpp.lab3.prob3.compo.Circle;
+package mpp.lab3.prob3.compo;
 
 public class Cylinder {
 
-    private mpp.mpp.lab3.prob3.compo.Circle circle;
+    private Circle circle;
 
     private double height = 1.0;
 

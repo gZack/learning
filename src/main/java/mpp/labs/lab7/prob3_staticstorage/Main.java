@@ -1,10 +1,10 @@
-package lesson7.labs.prob3_staticstorage;
+package mpp.labs.lab7.prob3_staticstorage;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
-	private static StaticStorage ss = new StaticStorage();
+	private static StaticStorage ss = StaticStorage.INSTANCE;
 	@SuppressWarnings({ "serial", "unused" })
 	public static void main(String[] args) {
 		List<Customer> list1 = new ArrayList<Customer>() {

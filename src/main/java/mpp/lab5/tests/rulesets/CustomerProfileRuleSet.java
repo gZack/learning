@@ -1,10 +1,9 @@
-package temp.lab5.tests.rulesets;
+package mpp.lab5.tests.rulesets;
+
+import mpp.lab5.tests.RuleSet;
+import mpp.lab5.tests.windows.CustomerProfileWindow;
 
 import java.awt.Component;
-
-import mpp.mpp.lab5.tests.RuleSet;
-import mpp.mpp.lab5.tests.rulesets.RuleException;
-import mpp.mpp.lab5.tests.windows.CustomerProfileWindow;
 
 final public class CustomerProfileRuleSet implements RuleSet {
 	//package level access

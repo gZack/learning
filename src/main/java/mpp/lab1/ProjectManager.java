@@ -1,15 +1,10 @@
-package temp.lab1;
-
-import mpp.mpp.lab1.Backlog;
-import mpp.mpp.lab1.Feature;
-import mpp.mpp.lab1.Project;
-import mpp.mpp.lab1.Sprint;
+package mpp.lab1;
 
 import java.util.List;
 
 public class ProjectManager {
     private String name;
-    private List<mpp.mpp.lab1.Project> projects;
+    private List<Project> projects;
 
     public String getName() {
         return name;
@@ -19,7 +14,7 @@ public class ProjectManager {
         this.name = name;
     }
 
-    public List<mpp.mpp.lab1.Project> getProjects() {
+    public List<Project> getProjects() {
         return projects;
     }
 
@@ -33,7 +28,7 @@ public class ProjectManager {
 
     }
 
-    public static double remainingWork(mpp.mpp.lab1.Sprint sprint){
+    public static double remainingWork(Sprint sprint){
         return sprint.calculateRemainingWork();
     }
 

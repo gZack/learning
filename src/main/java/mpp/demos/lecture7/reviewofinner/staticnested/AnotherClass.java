@@ -1,4 +1,4 @@
-package lesson7.lecture.reviewofinner.staticnested;
+package mpp.demos.lecture7.reviewofinner.staticnested;
 
 class AnotherClass {
 	public static void main(String[] args){

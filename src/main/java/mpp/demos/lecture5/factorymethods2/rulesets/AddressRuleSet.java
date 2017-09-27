@@ -1,9 +1,9 @@
-package lesson5.lecture.factorymethods2.rulesets;
+package mpp.demos.lecture5.factorymethods2.rulesets;
+
+import mpp.demos.lecture5.factorymethods2.RuleSet;
+import mpp.demos.lecture5.factorymethods2.windows.AddressWindow;
 
 import java.awt.Component;
-
-import lesson5.lecture.factorymethods2.RuleSet;
-import lesson5.lecture.factorymethods2.windows.AddressWindow;
 
 final public class AddressRuleSet implements RuleSet {
 	//package level access

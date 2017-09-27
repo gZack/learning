@@ -1,4 +1,4 @@
-package lesson9.lecture.collect;
+package mpp.demos.lecture9.collect;
 
 public class Employee {
 	String name;

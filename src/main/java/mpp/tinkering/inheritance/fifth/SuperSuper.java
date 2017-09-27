@@ -1,4 +1,4 @@
-package lesson4.lecture.staticinherit.fifth;
+package mpp.tinkering.inheritance.fifth;
 
 public class SuperSuper {
 	static void tryit() {

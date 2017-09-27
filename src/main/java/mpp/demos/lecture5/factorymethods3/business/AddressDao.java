@@ -1,11 +1,12 @@
-package lesson5.lecture.factorymethods3.business;
+package mpp.demos.lecture5.factorymethods3.business;
+
+import mpp.demos.lecture5.factorymethods3.dataaccess.Dao;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import lesson5.lecture.factorymethods3.dataaccess.Dao;
 
 public class AddressDao implements Dao {
 	private Address address;

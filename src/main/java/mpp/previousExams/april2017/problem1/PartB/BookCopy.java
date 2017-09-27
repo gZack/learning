@@ -1,4 +1,4 @@
-package mpp.previousExams.april2017.PartB;
+package mpp.previousExams.april2017.problem1.PartB;
 
 public class BookCopy {
 	private Book book;

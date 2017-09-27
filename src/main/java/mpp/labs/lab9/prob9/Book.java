@@ -1,4 +1,4 @@
-package lesson9.labs.prob9;
+package mpp.labs.lab9.prob9;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,5 +21,10 @@ public class Book {
 	public void addCopy() {
 		BookCopy copy = new BookCopy(this, copies.size() + 1, true);
 		copies.add(copy);
+	}
+
+	public boolean isAvailable(){
+		return copies.stream().map(b -> b.isAvailable())
+		.reduce(false,(b1,b2)->b1 || b2);
 	}
 }

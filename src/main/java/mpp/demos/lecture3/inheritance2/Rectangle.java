@@ -1,4 +1,4 @@
-package lesson3.lecture.inheritance2;
+package mpp.demos.lecture3.inheritance2;
 
 public class Rectangle {
 	private int side1, side2;

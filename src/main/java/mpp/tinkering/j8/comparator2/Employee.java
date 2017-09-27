@@ -1,4 +1,4 @@
-package mpp.demos.lecture8.comparator2;
+package mpp.tinkering.j8.comparator2;
 
 public class Employee {
 	String name;
@@ -7,7 +7,15 @@ public class Employee {
 		this.name = n;
 		this.salary = s;
 	}
-	
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
 	@Override
 	public String toString() {
 		StringBuilder sb = new StringBuilder("<");

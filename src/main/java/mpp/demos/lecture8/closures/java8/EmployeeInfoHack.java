@@ -1,4 +1,4 @@
-package lesson8.lecture.closures.java8;
+package mpp.demos.lecture8.closures.java8;
 
 import java.util.Collections;
 import java.util.Comparator;

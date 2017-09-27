@@ -1,4 +1,4 @@
-package lesson10.labs.prob5;
+package mpp.labs.lab10.prob5;
 
 import java.util.function.Function;
 
@@ -6,7 +6,7 @@ import java.util.function.Function;
 public interface FunctionWithException<T, R> {
 	R apply(T t) throws Exception;
 	
-	public static <T,R> Function<T,R> unchecked(FunctionWithException<T,R> f) {
+	public static <T,R> Function<T,R> unchecked(FunctionWithException<T, R> f) {
 		return x -> {	
 			try {
 				return f.apply(x);

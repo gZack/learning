@@ -1,4 +1,4 @@
-package lesson3.lecture.inheritance3;
+package mpp.demos.lecture3.inheritance3;
 
 import java.util.Arrays;
 

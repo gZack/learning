@@ -1,12 +1,12 @@
-package lesson10.lecture.trickycatch1;
+package mpp.demos.lecture10.trickycatch1;
+
+import mpp.demos.lecture10.logging.defaultlogging.LogSetup;
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.logging.Logger;
-
-import lesson10.lecture.logging.defaultlogging.LogSetup;
 
 /**
  * This code works -- it catches both exceptions

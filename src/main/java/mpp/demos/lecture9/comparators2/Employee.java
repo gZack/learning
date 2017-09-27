@@ -1,4 +1,4 @@
-package lesson9.lecture.comparators2;
+package mpp.demos.lecture9.comparators2;
 
 public class Employee {
 	String name;

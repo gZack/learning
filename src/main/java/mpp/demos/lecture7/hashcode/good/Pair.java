@@ -1,4 +1,4 @@
-package lesson7.lecture.hashcode.good;
+package mpp.demos.lecture7.hashcode.good;
 
 public class Pair {
 	String first;

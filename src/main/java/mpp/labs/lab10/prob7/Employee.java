@@ -1,4 +1,4 @@
-package lesson10.labs.prob7;
+package mpp.labs.lab10.prob7;
 
 public class Employee {
 	String firstName, lastName;

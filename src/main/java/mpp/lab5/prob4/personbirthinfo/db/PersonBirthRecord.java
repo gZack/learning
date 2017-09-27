@@ -1,21 +1,20 @@
 package mpp.lab5.prob4.personbirthinfo.db;
 
-public class DataRecord {
-	String id;
+import java.time.LocalDate;
+
+public class PersonBirthRecord {
 	String name;
-	String grade;
-	public DataRecord(String id, String name, String grade) {
-		this.id = id;
+	LocalDate dob;
+	public PersonBirthRecord(String name, LocalDate dob) {
 		this.name = name;
-		this.grade = grade;
+		this.dob = dob;
 	}
-	public String getId() {
-		return id;
-	}
+
 	public String getName() {
 		return name;
 	}
-	public String getGrade() {
-		return grade;
+
+	public LocalDate getDob() {
+		return dob;
 	}
 }

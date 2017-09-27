@@ -1,4 +1,4 @@
-package lesson7.lecture.reviewofinner.effectivelyfinaljava7;
+package mpp.demos.lecture7.reviewofinner.effectivelyfinaljava7;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -36,10 +36,10 @@ public class EmployeeInfo {
 		emps.add(new Employee("Tim", 50000));
 		emps.add(new Employee("Andy", 60000));
 		EmployeeInfo ei = new EmployeeInfo();
-		ei.sort(emps, EmployeeInfo.SortMethod.BYNAME);
+		ei.sort(emps, SortMethod.BYNAME);
 		System.out.println(emps);
 		//same instance
-		ei.sort(emps, EmployeeInfo.SortMethod.BYSALARY);
+		ei.sort(emps, SortMethod.BYSALARY);
 		System.out.println(emps);
 	}
 }

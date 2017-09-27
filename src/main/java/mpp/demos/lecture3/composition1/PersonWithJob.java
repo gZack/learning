@@ -1,4 +1,4 @@
-package lesson3.lecture.composition1;
+package mpp.demos.lecture3.composition1;
 
 public class PersonWithJob  {
 	

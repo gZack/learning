@@ -1,4 +1,4 @@
-package lesson7.lecture.overrideequals.equalclassesstrategy2;
+package mpp.demos.lecture7.overrideequals.equalclassesstrategy2;
 
 public class PersonWithJob extends Person {
 	private double salary;

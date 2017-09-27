@@ -1,5 +1,6 @@
-package lab10.prob1;
+package com.zkassa.learning.prob1;
 
+import mpp.labs.lab10.prob1.TDDPractice;
 import org.junit.Assert;
 import org.junit.Test;
 

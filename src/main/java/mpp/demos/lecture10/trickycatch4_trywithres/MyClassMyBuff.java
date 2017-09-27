@@ -1,4 +1,6 @@
-package lesson10.lecture.trickycatch4_trywithres;
+package mpp.demos.lecture10.trickycatch4_trywithres;
+
+import mpp.demos.lecture10.logging.defaultlogging.LogSetup;
 
 import java.io.File;
 import java.io.FileReader;
@@ -6,8 +8,6 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 import java.util.logging.Logger;
-
-import lesson10.lecture.logging.defaultlogging.LogSetup;
 
 /**
  * This is the same as MyClass, but we use MyBufferedReader

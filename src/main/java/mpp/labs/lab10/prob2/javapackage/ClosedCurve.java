@@ -1,5 +1,6 @@
-package lesson10.labs.prob2.javapackage;
-import lesson10.labsolns.prob2.bugreporter.BugReport;
+package mpp.labs.lab10.prob2.javapackage;
+
+import mpp.labs.lab10.prob2.bugreporter.BugReport;
 
 @BugReport(assignedTo="Tom Jones", severity=1, reportedBy="Corazza")
 public interface ClosedCurve {

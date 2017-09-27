@@ -1,4 +1,4 @@
-package lesson7.lecture.interfacestatic_clash;
+package mpp.demos.lecture7.interfacestatic_clash;
 
 public interface Sup1 {
 	static int myMethod() {

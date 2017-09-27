@@ -1,4 +1,4 @@
-package mpp.demos.lecture8.comparator2;
+package mpp.tinkering.j8.comparator2;
 
 import java.util.Comparator;
 

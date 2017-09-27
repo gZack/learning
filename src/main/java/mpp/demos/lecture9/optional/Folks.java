@@ -6,7 +6,7 @@
  * We make no guarantees that this code is fit for any purpose. 
  * Visit http://www.pragmaticprogrammer.com/titles/vsjava8 for more book information.
 ***/
-package lesson9.lecture.optional;
+package mpp.demos.lecture9.optional;
 
 import java.util.List;
 import java.util.Arrays;

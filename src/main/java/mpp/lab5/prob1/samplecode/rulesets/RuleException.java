@@ -1,4 +1,4 @@
-package temp.lab5.prob1.samplecode.rulesets;
+package mpp.lab5.prob1.samplecode.rulesets;
 
 @SuppressWarnings("serial")
 final public class RuleException extends Exception {

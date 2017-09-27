@@ -1,4 +1,4 @@
-package lesson9.labs.prob7b;
+package mpp.tinkering.j8.lab9.prob7b;
 
 @FunctionalInterface
 public interface TriFunction<S,T,U,R> {

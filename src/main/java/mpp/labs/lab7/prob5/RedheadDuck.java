@@ -1,10 +1,10 @@
-package mpp.lab5.prob2;
+package mpp.labs.lab7.prob5;
 
-public class RedheadDuck extends Duck{
+public class RedheadDuck extends Duck implements Flayable {
 
-    public RedheadDuck(){
-        this.flyBehaviour = new FlyWithWings();
-        this.quackBehaviour = new Quack();
+    @Override
+    public void fly() {
+        Flayable.super.fly();
     }
 
     @Override

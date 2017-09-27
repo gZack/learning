@@ -1,4 +1,4 @@
-package lesson3.lecture.inheritance2;
+package mpp.demos.lecture3.inheritance2;
 
 /**
  * Square IS-A Rectangle, but LSP is violated.

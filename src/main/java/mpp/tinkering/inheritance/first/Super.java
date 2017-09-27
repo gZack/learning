@@ -1,4 +1,4 @@
-package lesson4.lecture.staticinherit.first;
+package mpp.tinkering.inheritance.first;
 
 public class Super {
 	static void print() {

@@ -1,4 +1,4 @@
-package lesson8.lecture.methodreferences;
+package mpp.demos.lecture8.methodreferences;
 
 import java.util.Comparator;
 

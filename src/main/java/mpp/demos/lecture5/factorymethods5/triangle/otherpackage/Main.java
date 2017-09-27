@@ -1,7 +1,8 @@
-package lesson5.lecture.factorymethods5.triangle.otherpackage;
+package mpp.demos.lecture5.factorymethods5.triangle.otherpackage;
+import mpp.demos.lecture5.factorymethods5.triangle.Triangle;
+
 import java.util.Arrays;
 
-import lesson5.lecture.factorymethods5.triangle.*;
 public class Main {
 
 	public static void main(String[] args) {

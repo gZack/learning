@@ -1,4 +1,4 @@
-package mpp.demos.lecture4.staticinherit.finalinherit;
+package mpp.demos.lecture4.finalinherit;
 
 public class Super {
 	final void print() {

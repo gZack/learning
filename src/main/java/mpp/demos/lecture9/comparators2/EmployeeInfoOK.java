@@ -1,4 +1,4 @@
-package lesson9.lecture.comparators2;
+package mpp.demos.lecture9.comparators2;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -34,10 +34,10 @@ public class EmployeeInfoOK {
 		emps.add(new Employee("Tim", 50000));
 		emps.add(new Employee("Andy", 60000));
 		EmployeeInfoOK ei = new EmployeeInfoOK();
-		ei.sort(emps, EmployeeInfoOK.SortMethod.BYNAME);
+		ei.sort(emps, SortMethod.BYNAME);
 		System.out.println(emps);
 		//same instance
-		ei.sort(emps, EmployeeInfoOK.SortMethod.BYSALARY);
+		ei.sort(emps, SortMethod.BYSALARY);
 		System.out.println(emps);
 	}
 }

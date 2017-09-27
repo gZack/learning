@@ -1,4 +1,4 @@
-package lesson7.labs.prob1.partB;
+package mpp.labs.lab7.prob1.partB;
 
 import java.util.ArrayList;
 import java.util.List;

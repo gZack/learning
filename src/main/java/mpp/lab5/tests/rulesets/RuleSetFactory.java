@@ -1,10 +1,8 @@
-package temp.lab5.tests.rulesets;
+package mpp.lab5.tests.rulesets;
 
-import mpp.mpp.lab5.tests.RuleSet;
-import mpp.mpp.lab5.tests.rulesets.AddressRuleSet;
-import mpp.mpp.lab5.tests.rulesets.CustomerProfileRuleSet;
-import mpp.mpp.lab5.tests.windows.AddressWindow;
-import mpp.mpp.lab5.tests.windows.CustomerProfileWindow;
+import mpp.lab5.tests.RuleSet;
+import mpp.lab5.tests.windows.AddressWindow;
+import mpp.lab5.tests.windows.CustomerProfileWindow;
 
 import java.awt.Component;
 import java.util.HashMap;

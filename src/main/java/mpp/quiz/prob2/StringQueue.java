@@ -1,4 +1,4 @@
-package prob2;
+package mpp.quiz.prob2;
 import java.util.*;
 
 /* Do Not Modify */

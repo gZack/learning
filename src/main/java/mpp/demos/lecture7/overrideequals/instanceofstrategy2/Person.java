@@ -1,4 +1,4 @@
-package lesson7.lecture.overrideequals.instanceofstrategy2;
+package mpp.demos.lecture7.overrideequals.instanceofstrategy2;
 
 /** 
  * INCORRECT: Person and PersonWithJob both use instanceof strategy

@@ -1,4 +1,4 @@
-package lesson8.lecture.exercise.employeecode;
+package mpp.demos.lecture8.exercise.employeecode;
 
 import java.util.Comparator;
 

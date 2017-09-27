@@ -1,4 +1,4 @@
-package lesson7.lecture.singletons;
+package mpp.demos.lecture7.singletons;
 
 public class Main {
 	@SuppressWarnings("unused")

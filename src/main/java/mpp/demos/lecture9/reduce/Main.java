@@ -1,4 +1,4 @@
-package lesson9.lecture.reduce;
+package mpp.demos.lecture9.reduce;
 
 import java.util.Arrays;
 import java.util.List;

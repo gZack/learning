@@ -1,4 +1,4 @@
-package lesson8.lecture.methodreferences;
+package mpp.demos.lecture8.methodreferences;
 import java.util.Comparator;
 import java.util.function.*;
 public class Examples {
@@ -59,8 +59,13 @@ public class Examples {
 		//threadDump2.act();
 		
 		System.out.println(parser2.apply("15"));
+
+		EmployeeNameComparator mycomp = new EmployeeNameComparator();
 		
 		System.out.println(empComp2.compare(testEmp, new Employee("John", 100000)));
+		System.out.println("new: " + mycomp.compare(testEmp, new Employee("John", 100000)));
+
+
 	}
 	
 	public static void main(String[] args) {

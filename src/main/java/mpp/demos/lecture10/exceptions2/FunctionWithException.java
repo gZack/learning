@@ -1,4 +1,4 @@
-package lesson10.lecture.exceptions2;
+package mpp.demos.lecture10.exceptions2;
 
 @FunctionalInterface
 public interface FunctionWithException<T, R> {

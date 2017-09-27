@@ -1,4 +1,4 @@
-package lesson8.lecture.lambdaexamples.bifunction;
+package mpp.demos.lecture8.lambdaexamples.bifunction;
 
 import java.util.function.BiFunction;
 

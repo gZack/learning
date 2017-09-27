@@ -1,4 +1,4 @@
-package temp.lab3.prob3.inherit;
+package mpp.lab3.prob3.inherit;
 
 public class Circle {
 

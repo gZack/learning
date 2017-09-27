@@ -1,4 +1,6 @@
-package lesson10.lecture.trickycatch3_suppressed;
+package mpp.demos.lecture10.trickycatch3_suppressed;
+
+import mpp.demos.lecture10.logging.defaultlogging.LogSetup;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -9,7 +11,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.logging.Logger;
 
-import lesson10.lecture.logging.defaultlogging.LogSetup;
 
 /**
  * This version uses class from tricky2 and 

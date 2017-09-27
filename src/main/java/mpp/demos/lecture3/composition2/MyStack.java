@@ -1,4 +1,4 @@
-package lesson3.lecture.composition2;
+package mpp.demos.lecture3.composition2;
 
 import java.util.*;
 

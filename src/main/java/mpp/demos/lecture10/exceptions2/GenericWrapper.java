@@ -1,4 +1,4 @@
-package lesson10.lecture.exceptions2;
+package mpp.demos.lecture10.exceptions2;
 
 import java.io.File;
 import java.util.List;
@@ -21,7 +21,7 @@ public class GenericWrapper {
 	}
 	
 	public static <T, R> Function<T,R> unchecked(FunctionWithException<T,R> f) {
-		return x -> {	
+		return x -> {
 			try {
 				return f.apply(x);
 			} catch(Exception e) {
@@ -29,4 +29,5 @@ public class GenericWrapper {
 			}
 		};
 	}
+
 }

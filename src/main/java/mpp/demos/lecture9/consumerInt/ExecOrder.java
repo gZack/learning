@@ -1,4 +1,4 @@
-package lesson9.lecture.consumerInt;
+package mpp.demos.lecture9.consumerInt;
 
 import java.util.stream.Stream;
 
@@ -13,7 +13,7 @@ public class ExecOrder {
 	        System.out.println("filter: " + s);
 	        return s.startsWith("a");
 	    })
-	    .map(s -> {
+	 	   .map(s -> {
 	        System.out.println("map: " + s);
 	        return s.toUpperCase();
 	    })

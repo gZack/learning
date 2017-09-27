@@ -1,4 +1,4 @@
-package lesson8.lecture.filter;
+package mpp.demos.lecture8.filter;
 
 import java.util.List;
 import java.util.function.BiFunction;

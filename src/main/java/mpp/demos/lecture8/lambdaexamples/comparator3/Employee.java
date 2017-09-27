@@ -1,4 +1,4 @@
-package lesson8.lecture.lambdaexamples.comparator3;
+package mpp.demos.lecture8.lambdaexamples.comparator3;
 
 public class Employee {
 	String name;

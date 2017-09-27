@@ -1,4 +1,4 @@
-package lesson5.lecture.factorymethods2.rulesets;
+package mpp.demos.lecture5.factorymethods2.rulesets;
 
 @SuppressWarnings("serial")
 final public class RuleException extends Exception {

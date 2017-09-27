@@ -1,10 +1,8 @@
-package lesson9.labs.prob3;
+package mpp.tinkering.j8.lab9.prob3;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 import java.util.function.*;
+import java.util.stream.Collectors;
 
 public class EmployeeInfoBetter {
 	static enum SortMethod {BYNAME, BYSALARY};
@@ -29,10 +27,32 @@ public class EmployeeInfoBetter {
 		emps.add(new Employee("Andy", 60000));
 		emps.add(new Employee("Tim", 10000));
 		EmployeeInfoBetter ei = new EmployeeInfoBetter();
-		ei.sort(emps, EmployeeInfoBetter.SortMethod.BYNAME);
+		ei.sort(emps, SortMethod.BYNAME);
 		System.out.println(emps);
 		//same instance
-		ei.sort(emps, EmployeeInfoBetter.SortMethod.BYSALARY);
+		ei.sort(emps, SortMethod.BYSALARY);
 		//System.out.println(emps);
+
+
+		Map<String, Employee> map=emps.stream()
+				.collect(Collectors
+						.toMap(Employee::getName,Function.identity(),(x,y) -> {
+							System.out.println("duplicate key found");
+							return y;
+						}));
+
+		//emps.stream()
+		//		.collect(Collectors.toCollection(TreeSet::new));
+
+		int v = 0;
+
+		Map<String, Employee> treeMap = new TreeMap<>();
+		treeMap.putAll(map);
+
+		IntSummaryStatistics statistics = emps.stream()
+				.map(Employee::getName)
+				.collect(Collectors.summarizingInt(value -> (int)Math.pow(value.length(),2)));
+
+		int t = 0;
 	}
 }

@@ -1,4 +1,4 @@
-package temp.lab1;
+package mpp.lab1;
 
 public class Feature {
 
