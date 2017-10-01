@@ -1,6 +1,8 @@
 package mpp.demos.lecture9.iterate;
+
 import java.math.BigInteger;
-import java.util.stream.*;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 public class Examples {
 
 	public static void main(String[] args) {

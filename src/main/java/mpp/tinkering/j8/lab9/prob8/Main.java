@@ -1,6 +1,7 @@
 package mpp.tinkering.j8.lab9.prob8;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.List;
 
 public class Main {
 

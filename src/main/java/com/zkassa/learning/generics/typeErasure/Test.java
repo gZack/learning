@@ -1,7 +1,5 @@
 package com.zkassa.learning.generics.typeErasure;
 
-import java.lang.reflect.Method;
-
 public class Test {
     public static void main(String[] args){
         /*MyNode mn = new MyNode(5);

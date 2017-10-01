@@ -1,6 +1,6 @@
 package mpp.lab5.prob4.factorymethods6.otherpackage;
 
-import java.util.*;
+import java.util.HashMap;
 
 
 public class Database {

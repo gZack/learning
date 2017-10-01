@@ -1,9 +1,7 @@
 package mpp.labs.lab9.prob3;
 
 import java.math.BigInteger;
-import java.util.function.IntUnaryOperator;
 import java.util.function.UnaryOperator;
-import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class GeneratePrime {

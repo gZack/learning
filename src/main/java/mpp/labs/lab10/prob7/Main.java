@@ -1,6 +1,7 @@
 package mpp.labs.lab10.prob7;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 

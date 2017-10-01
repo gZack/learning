@@ -2,11 +2,7 @@ package mpp.demos.lecture10.logging.defaultlogging;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.logging.ConsoleHandler;
-import java.util.logging.FileHandler;
-import java.util.logging.Handler;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import java.util.logging.*;
 
 public class LogSetup {
 	private static String logDir = System.getProperty("user.dir") + "\\src\\logs\\";

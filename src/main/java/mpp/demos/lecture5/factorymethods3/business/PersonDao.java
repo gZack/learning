@@ -4,7 +4,8 @@ import mpp.demos.lecture5.factorymethods3.dataaccess.Dao;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class PersonDao implements Dao {
 	private Person person;

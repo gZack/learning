@@ -3,7 +3,7 @@ package mpp.demos.lecture5.factorymethods2.rulesets;
 import mpp.demos.lecture5.factorymethods2.RuleSet;
 import mpp.demos.lecture5.factorymethods2.windows.CustomerProfileWindow;
 
-import java.awt.Component;
+import java.awt.*;
 
 final public class CustomerProfileRuleSet implements RuleSet {
 	//package level access

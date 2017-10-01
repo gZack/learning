@@ -1,6 +1,6 @@
 package mpp.demos.lecture7.iterator;
 
-import java.util.*;
+import java.util.Iterator;
 import java.util.function.Consumer;
 
 public class MyStringListWithIterator implements Iterable<String> {

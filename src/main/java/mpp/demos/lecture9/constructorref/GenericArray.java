@@ -1,8 +1,8 @@
 package mpp.demos.lecture9.constructorref;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.List;
 import java.util.function.IntFunction;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class GenericArray {

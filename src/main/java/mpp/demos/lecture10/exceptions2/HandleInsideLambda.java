@@ -8,11 +8,11 @@
  ***/
 package mpp.demos.lecture10.exceptions2;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-import java.io.File;
-import java.io.IOException;
 
 /** Shows a BAD WAY of handling exceptions in lambda expressions.*/
 public class HandleInsideLambda {

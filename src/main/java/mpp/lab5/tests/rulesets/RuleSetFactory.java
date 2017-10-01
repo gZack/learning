@@ -4,7 +4,7 @@ import mpp.lab5.tests.RuleSet;
 import mpp.lab5.tests.windows.AddressWindow;
 import mpp.lab5.tests.windows.CustomerProfileWindow;
 
-import java.awt.Component;
+import java.awt.*;
 import java.util.HashMap;
 
 final public class RuleSetFactory {

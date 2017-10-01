@@ -1,6 +1,7 @@
 package mpp.demos.lecture3.polymorphism2;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.List;
 
 public class Main {
 

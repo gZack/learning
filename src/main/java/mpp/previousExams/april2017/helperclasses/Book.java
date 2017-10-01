@@ -1,5 +1,7 @@
 package mpp.previousExams.april2017.helperclasses;
-import java.util.*;
+
+import java.util.ArrayList;
+import java.util.List;
 public class Book {
 	private String isbn;
 	private int maxCheckoutLength;

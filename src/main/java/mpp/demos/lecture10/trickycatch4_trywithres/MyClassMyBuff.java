@@ -3,7 +3,6 @@ package mpp.demos.lecture10.trickycatch4_trywithres;
 import mpp.demos.lecture10.logging.defaultlogging.LogSetup;
 
 import java.io.File;
-import java.io.FileReader;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;

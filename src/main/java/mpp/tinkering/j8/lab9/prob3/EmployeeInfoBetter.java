@@ -1,7 +1,7 @@
 package mpp.tinkering.j8.lab9.prob3;
 
 import java.util.*;
-import java.util.function.*;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class EmployeeInfoBetter {

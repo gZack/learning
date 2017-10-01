@@ -1,7 +1,8 @@
 package mpp.previousExams.april2017.Problem6.Exam;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.function.Predicate;
-import java.util.*;
 public class ConditionalRemove {
 	static class StrLengthCondition implements Predicate<String> {
 		public boolean test(String s) {

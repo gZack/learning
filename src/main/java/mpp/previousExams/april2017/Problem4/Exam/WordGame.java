@@ -4,11 +4,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-
-import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
-
 public class WordGame {
 	//This method throws an IllegalWordException
 	//Find a way to handle it. Use best practices

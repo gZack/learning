@@ -1,7 +1,9 @@
 package mpp.demos.lecture5.factorymethods;
 
-import java.net.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.net.URL;
+import java.net.URLConnection;
 
 /**
  * This program explicitly retrieves a URLConnection object 

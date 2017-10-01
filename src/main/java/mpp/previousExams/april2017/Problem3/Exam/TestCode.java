@@ -1,5 +1,7 @@
 package mpp.previousExams.april2017.Problem3.Exam;
-import java.util.*;
+
+import java.util.ArrayList;
+import java.util.List;
 public class TestCode {
 	@SuppressWarnings("serial")
 	public static void main(String[] args) {

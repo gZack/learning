@@ -2,7 +2,9 @@ package mpp.labs.lab9.prob8;
 
 import mpp.demos.lecture8.lambdaexamples.trifunction.TriFunction;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Optional;
 
 public class Main {
 

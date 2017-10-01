@@ -8,8 +8,8 @@
 ***/
 package mpp.demos.lecture9.optional;
 
-import java.util.List;
 import java.util.Arrays;
+import java.util.List;
 
 public class Folks {
   public static

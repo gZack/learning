@@ -1,7 +1,6 @@
 package mpp.previousExams.april2017.Problem3.Exam;
 
 import java.util.List;
-import java.util.function.Function;
 
 //DO NOT MODIFY METHOD SIGNATURE OR STATIC QUALIFIER
 public class FindOldestPerson {

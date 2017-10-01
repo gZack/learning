@@ -1,6 +1,6 @@
 package mpp.demos.lecture3.composition2;
 
-import java.util.*;
+import java.util.LinkedList;
 
 public class MyStack<T> {
 	private LinkedList<T> list = new LinkedList<>();

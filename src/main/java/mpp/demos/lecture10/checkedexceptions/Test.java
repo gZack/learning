@@ -1,10 +1,10 @@
 package mpp.demos.lecture10.checkedexceptions;
 
+import com.sun.istack.internal.logging.Logger;
+
 import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
-
-import com.sun.istack.internal.logging.Logger;
 
 public class Test {
 

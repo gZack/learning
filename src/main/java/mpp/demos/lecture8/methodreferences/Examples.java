@@ -1,6 +1,9 @@
 package mpp.demos.lecture8.methodreferences;
+
 import java.util.Comparator;
-import java.util.function.*;
+import java.util.function.BiConsumer;
+import java.util.function.BiFunction;
+import java.util.function.Function;
 public class Examples {
 	
 	

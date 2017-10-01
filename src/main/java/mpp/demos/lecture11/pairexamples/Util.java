@@ -1,6 +1,5 @@
 package mpp.demos.lecture11.pairexamples;
 
-import java.util.*;
 public class Util {
 	
     public static <K, V> boolean compare(SimplePair<K, V> p1, SimplePair<K, V> p2) {

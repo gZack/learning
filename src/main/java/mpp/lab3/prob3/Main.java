@@ -1,9 +1,6 @@
 package mpp.lab3.prob3;
 
 
-import mpp.lab3.prob3.compo.Circle;
-import mpp.lab3.prob3.compo.Cylinder;
-
 public class Main {
 
     public static void main(String[] args){

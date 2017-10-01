@@ -3,9 +3,9 @@ package mpp.demos.lecture9.comparators1;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-import java.util.function.*;
 
 /**
  * Sorts words in descending order of length, using the

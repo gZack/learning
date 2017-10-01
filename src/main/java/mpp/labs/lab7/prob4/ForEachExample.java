@@ -2,9 +2,7 @@ package mpp.labs.lab7.prob4;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.TreeSet;
 import java.util.function.Consumer;
-import java.util.function.Function;
 
 
 public class ForEachExample {

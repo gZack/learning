@@ -1,14 +1,16 @@
 package mpp.previousExams.april2017.problem2;
 
 
-import mpp.previousExams.april2017.helperclasses.*;
+import mpp.previousExams.april2017.helperclasses.Book;
+import mpp.previousExams.april2017.helperclasses.CheckoutRecordEntry;
+import mpp.previousExams.april2017.helperclasses.LibraryMember;
+import mpp.previousExams.april2017.helperclasses.TestData;
 
 import java.time.LocalDate;
 import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
 import java.util.function.Function;
-import java.util.stream.Collectors;
 
 public class Problem2 {
 	@SuppressWarnings("unused")

@@ -1,6 +1,10 @@
 package mpp.labs.lab7.prob3_staticstorage;
+
 import java.time.LocalTime;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
 
 public enum  StaticStorage implements Cache {
 	INSTANCE;

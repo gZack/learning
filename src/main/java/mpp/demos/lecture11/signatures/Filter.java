@@ -1,5 +1,7 @@
 package mpp.demos.lecture11.signatures;
-import java.util.*;
+
+import java.util.Arrays;
+import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 // Stream<T> filter(Predicate<? super T> predicate)

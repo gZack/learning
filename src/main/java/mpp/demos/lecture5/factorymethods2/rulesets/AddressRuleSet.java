@@ -3,7 +3,7 @@ package mpp.demos.lecture5.factorymethods2.rulesets;
 import mpp.demos.lecture5.factorymethods2.RuleSet;
 import mpp.demos.lecture5.factorymethods2.windows.AddressWindow;
 
-import java.awt.Component;
+import java.awt.*;
 
 final public class AddressRuleSet implements RuleSet {
 	//package level access

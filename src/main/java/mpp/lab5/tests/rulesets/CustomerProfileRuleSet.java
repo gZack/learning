@@ -3,7 +3,7 @@ package mpp.lab5.tests.rulesets;
 import mpp.lab5.tests.RuleSet;
 import mpp.lab5.tests.windows.CustomerProfileWindow;
 
-import java.awt.Component;
+import java.awt.*;
 
 final public class CustomerProfileRuleSet implements RuleSet {
 	//package level access

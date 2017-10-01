@@ -4,14 +4,10 @@ import mpp.lab5.tests.RuleSet;
 import mpp.lab5.tests.rulesets.RuleException;
 import mpp.lab5.tests.rulesets.RuleSetFactory;
 
-import java.awt.BorderLayout;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
 
 public class CustomerProfileWindow extends JFrame {
 	public CustomerProfileWindow() {

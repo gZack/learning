@@ -4,14 +4,10 @@ import mpp.demos.lecture5.factorymethods2.RuleSet;
 import mpp.demos.lecture5.factorymethods2.rulesets.RuleException;
 import mpp.demos.lecture5.factorymethods2.rulesets.RuleSetFactory;
 
-import java.awt.BorderLayout;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
 
 public class AddressWindow extends JFrame {
 	public AddressWindow() {

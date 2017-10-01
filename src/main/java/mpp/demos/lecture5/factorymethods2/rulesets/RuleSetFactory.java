@@ -4,7 +4,7 @@ import mpp.demos.lecture5.factorymethods2.RuleSet;
 import mpp.demos.lecture5.factorymethods2.windows.AddressWindow;
 import mpp.demos.lecture5.factorymethods2.windows.CustomerProfileWindow;
 
-import java.awt.Component;
+import java.awt.*;
 import java.util.HashMap;
 
 final public class RuleSetFactory {

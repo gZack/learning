@@ -1,5 +1,7 @@
 package mpp.quiz.prob2;
-import java.util.*;
+
+import java.util.Collection;
+import java.util.LinkedList;
 
 /* Do Not Modify */
 public class StringQueue {

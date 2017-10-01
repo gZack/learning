@@ -1,7 +1,5 @@
 package mpp.demos.lecture8.methodreferences;
 
-import java.util.function.BooleanSupplier;
-
 public class Employee {
 	String name;
 	public String getName() {

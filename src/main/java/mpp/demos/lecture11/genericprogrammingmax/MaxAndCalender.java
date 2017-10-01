@@ -1,7 +1,8 @@
 package mpp.demos.lecture11.genericprogrammingmax;
 
 import java.time.LocalDate;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class MaxAndCalender {
 	public static <T extends Comparable<T>> T max(List<T> list) {

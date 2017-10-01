@@ -1,7 +1,6 @@
 package mpp.tinkering.j8.filter;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Good {
 

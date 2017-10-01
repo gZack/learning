@@ -6,12 +6,10 @@ import mpp.tinkering.j8.filter.Better;
 import mpp.tinkering.j8.filter.Good;
 
 import java.util.*;
-import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 public class Test {
 
@@ -61,6 +59,14 @@ public class Test {
         Supplier<Double> randomSupplier = Math::random;
 
         System.out.println(randomSupplier.get());
+
+        Collector.of(() -> new StringJoiner(" | "),
+                        (stringJoiner, o) -> stringJoiner.add((String)o),
+                        (stringJoiner, stringJoiner2) -> stringJoiner.merge(stringJoiner2));
+
+        /*Collector.of(TreeSet::new,
+                (o, o2) -> o.add(o2),
+                (objects, objects2) -> objects.addAll(objects2))*/
 
 
     }

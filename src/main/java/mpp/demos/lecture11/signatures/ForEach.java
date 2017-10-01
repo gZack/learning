@@ -1,5 +1,8 @@
 package mpp.demos.lecture11.signatures;
-import java.util.*;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 // void forEach(Consumer<? super T> action)
 // why ? super T
 public class ForEach {

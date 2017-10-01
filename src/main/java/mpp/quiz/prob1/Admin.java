@@ -1,6 +1,9 @@
 package mpp.quiz.prob1;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 import java.util.stream.Collectors;
 
 public class Admin {
@@ -30,9 +33,6 @@ public class Admin {
 				.filter(m -> m.contains(item))
 				.map(m -> m.getPhone())
 				.collect(Collectors.toList());
-
-
-
 
 		Collections.sort(phoneNums);
 		return phoneNums;

@@ -1,9 +1,6 @@
 package mpp.demos.lecture11.extend;
 
-import java.util.ArrayList;
-
 import java.time.LocalDate;
-import java.util.List;
 
 
 class Employee {

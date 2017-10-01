@@ -1,5 +1,6 @@
 package mpp.demos.lecture9.newstring;
-import java.util.function.*;
+
+import java.util.function.Function;
 public class StringCreator {
 	public static void main(String[] args) {
       Function<char[], String> myFunc = String::new;

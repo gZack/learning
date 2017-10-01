@@ -1,8 +1,8 @@
 package mpp.demos.lecture8.functionalprogramming;
 
-import java.util.List;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 public class LackReferentialTransparency {
 	private HashMap<Character, Integer> allLetterCount = new HashMap<>();

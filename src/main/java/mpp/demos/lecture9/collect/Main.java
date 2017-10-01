@@ -1,5 +1,7 @@
 package mpp.demos.lecture9.collect;
-import java.util.*;
+
+import java.util.Arrays;
+import java.util.List;
 import java.util.stream.Collectors;
 public class Main {
 

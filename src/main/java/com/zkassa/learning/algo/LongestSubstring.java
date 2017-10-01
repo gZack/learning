@@ -1,6 +1,7 @@
 package com.zkassa.learning.algo;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 
 public class LongestSubstring {
 

@@ -6,7 +6,6 @@ import java.util.stream.IntStream;
 
 public class PrintSquare {
 
-
     public static void main(String[] args){
         final IntUnaryOperator nextSquare = n ->{
           n = (int)Math.sqrt(n);
@@ -21,7 +20,6 @@ public class PrintSquare {
 
         final IntStream intStream = IntStream.iterate(1,nextSquare);
         intStream.limit(10).forEach(System.out::println);
-
 
     }
 }

@@ -3,7 +3,7 @@ package mpp.lab5.tests.rulesets;
 import mpp.lab5.tests.RuleSet;
 import mpp.lab5.tests.windows.AddressWindow;
 
-import java.awt.Component;
+import java.awt.*;
 
 final public class AddressRuleSet implements RuleSet {
 	//package level access

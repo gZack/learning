@@ -2,7 +2,7 @@ package mpp.lab5.tests;
 
 import mpp.lab5.tests.rulesets.RuleException;
 
-import java.awt.Component;
+import java.awt.*;
 
 
 public interface RuleSet {

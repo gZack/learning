@@ -1,5 +1,8 @@
 package mpp.demos.lecture11.genericprogrammingmax;
-import java.util.*;
+
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
 public class BoundedTypeVariable {
 
 	public static void main(String[] args) {

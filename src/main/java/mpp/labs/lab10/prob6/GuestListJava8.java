@@ -1,9 +1,6 @@
 package mpp.labs.lab10.prob6;
 
-import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
-
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.List;
 
 public class GuestListJava8 {

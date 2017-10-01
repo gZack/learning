@@ -1,10 +1,12 @@
 package mpp.demos.lecture8.lambdaexamples.runnable;
 
-import java.io.*;
-import java.nio.charset.*;
-import java.nio.file.*;
-import java.util.*;
-import java.util.stream.*;
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Stream;
 
 public class RunnableExample {
    public static void main(String[] args) {

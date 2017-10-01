@@ -3,7 +3,6 @@ package mpp.tinkering.j8.functionalInterfaces;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.BiFunction;
-import java.util.function.DoubleSupplier;
 import java.util.function.Supplier;
 
 public class Test {
